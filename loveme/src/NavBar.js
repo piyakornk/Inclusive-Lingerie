@@ -12,15 +12,27 @@ function NavBar() {
       <>
         <Toolbar {...toolbar} aria-label="My toolbar">
         <ToolbarItem {...toolbar} as={Button}>
-            Item 1
+            Bras
         </ToolbarItem>
         <ToolbarItem {...toolbar} as={Button}>
-            Item 2
+            Panties
         </ToolbarItem>
         <ToolbarItem {...toolbar} as={Button}>
-            Item 3
+            Sets
         </ToolbarItem>
         </Toolbar>
+
+        <h1> LoveMe</h1>
+
+        <Toolbar {...toolbar} aria-label="My toolbar">
+        <ToolbarItem {...toolbar} as={Button}>
+            About Us
+        </ToolbarItem>
+        <ToolbarItem {...toolbar} as={Button}>
+            Size table
+        </ToolbarItem>
+        </Toolbar>
+
         </>
   );    
 }

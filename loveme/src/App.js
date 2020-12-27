@@ -1,7 +1,7 @@
 import React from "react"; 
 import './App.css';
 import Product from './Product';
-import { Provider, Button } from "reakit";
+import {  Button } from "reakit";
 import { useTabState, Tab, TabList, TabPanel } from "reakit/Tab";
 
 import {
@@ -18,6 +18,7 @@ import {
   unstable_GridCell as GridCell,
 } from "reakit/Grid";
 import NavBar from "./NavBar";
+import SizeTable from "./SizeTable";
 
 
 function App(){
@@ -27,7 +28,8 @@ function App(){
   return(
     <>
     <NavBar />
-      <h1>LoveMe</h1>
+    <SizeTable />
+      
 
           <TabList {...tab} aria-label="My tabs">
               <Tab {...tab}>Bras</Tab>
