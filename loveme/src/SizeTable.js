@@ -13,25 +13,50 @@ import {
     <>
     <Grid {...grid} aria-label="Size Table">
         <GridRow {...grid}>
-        <GridCell {...grid}>Sizes</GridCell>
+            <GridCell {...grid}>Sizes</GridCell>
             <GridCell {...grid}>XXS - XS</GridCell>
             <GridCell {...grid}>XS - S</GridCell>
             <GridCell {...grid}>S - M</GridCell>
             <GridCell {...grid}>M - L</GridCell>
             <GridCell {...grid}>L - XL</GridCell>
             <GridCell {...grid}>XL - XXL</GridCell>
+            <GridCell {...grid}>XXL - XXXL</GridCell>
+            <GridCell {...grid}>XXXL</GridCell>
         </GridRow>
         <GridRow {...grid}>
-            <GridCell {...grid}>4</GridCell>
-            <GridCell {...grid}>5</GridCell>
-            <GridCell {...grid}>6</GridCell>
-        </GridRow>
-        <GridRow {...grid}>
-            <GridCell {...grid}>7</GridCell>
+            <GridCell {...grid}>US</GridCell>
+            <GridCell {...grid}>O</GridCell>
+            <GridCell {...grid}>2 - 4</GridCell>
+            <GridCell {...grid}>4 - 6</GridCell>
             <GridCell {...grid}>8</GridCell>
-        <GridCell {...grid}>9</GridCell>
+            <GridCell {...grid}>10</GridCell>
+            <GridCell {...grid}>12</GridCell>
+            <GridCell {...grid}>14</GridCell>
+            <GridCell {...grid}>16</GridCell>
         </GridRow>
-        </Grid>`
+        <GridRow {...grid}>
+            <GridCell {...grid}>UK</GridCell>
+            <GridCell {...grid}>6</GridCell>
+            <GridCell {...grid}>8</GridCell>
+            <GridCell {...grid}>10</GridCell>
+            <GridCell {...grid}>12</GridCell>
+            <GridCell {...grid}>14</GridCell>
+            <GridCell {...grid}>16</GridCell>
+            <GridCell {...grid}>18</GridCell>
+            <GridCell {...grid}>20</GridCell>
+        </GridRow>
+        <GridRow {...grid}>
+            <GridCell {...grid}>Italy</GridCell>
+            <GridCell {...grid}>38</GridCell>
+            <GridCell {...grid}>40</GridCell>
+            <GridCell {...grid}>42</GridCell>
+            <GridCell {...grid}>12</GridCell>
+            <GridCell {...grid}>14</GridCell>
+            <GridCell {...grid}>16</GridCell>
+            <GridCell {...grid}>18</GridCell>
+            <GridCell {...grid}>20</GridCell>
+        </GridRow>
+    </Grid>
   </>
 );
 
