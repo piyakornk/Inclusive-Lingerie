@@ -13,9 +13,13 @@ import {
     <>
     <Grid {...grid} aria-label="Size Table">
         <GridRow {...grid}>
-        <GridCell {...grid}>1</GridCell>
-            <GridCell {...grid}>2</GridCell>
-            <GridCell {...grid}>3</GridCell>
+        <GridCell {...grid}>Sizes</GridCell>
+            <GridCell {...grid}>XXS - XS</GridCell>
+            <GridCell {...grid}>XS - S</GridCell>
+            <GridCell {...grid}>S - M</GridCell>
+            <GridCell {...grid}>M - L</GridCell>
+            <GridCell {...grid}>L - XL</GridCell>
+            <GridCell {...grid}>XL - XXL</GridCell>
         </GridRow>
         <GridRow {...grid}>
             <GridCell {...grid}>4</GridCell>
