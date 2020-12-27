@@ -17,7 +17,7 @@ import {
   unstable_GridRow as GridRow,
   unstable_GridCell as GridCell,
 } from "reakit/Grid";
-
+import NavBar from "./NavBar";
 
 
 function App(){
@@ -26,6 +26,7 @@ function App(){
   const grid = useGridState();
   return(
     <>
+    <NavBar />
       <h1>LoveMe</h1>
 
           <TabList {...tab} aria-label="My tabs">
