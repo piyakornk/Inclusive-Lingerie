@@ -11,24 +11,20 @@ import {
   ToolbarSeparator,
 } from "reakit/Toolbar";
 
-import {
-  unstable_useGridState as useGridState,
-  unstable_Grid as Grid,
-  unstable_GridRow as GridRow,
-  unstable_GridCell as GridCell,
-} from "reakit/Grid";
+
 import NavBar from "./NavBar";
 import SizeTable from "./SizeTable";
+import ProductCard from "./ProductCard";
 
 
 function App(){
   const tab = useTabState({ selectedId: null });
   const toolbar = useToolbarState({ loop: true });
-  const grid = useGridState();
   return(
     <>
     <NavBar />
     <SizeTable />
+    <ProductCard />
       
 
           <TabList {...tab} aria-label="My tabs">
@@ -59,25 +55,8 @@ function App(){
             <Button>Button</Button>
 
         <ToolbarSeparator {...toolbar} />
-
-            <Grid {...grid} aria-label="My grid">
-              <GridRow {...grid}>
-                <GridCell {...grid}>cell</GridCell>
-                <GridCell {...grid}>cell</GridCell>
-                <GridCell {...grid}>cell</GridCell>
-              </GridRow>
-              <GridRow {...grid}>
-                <GridCell {...grid}>cell</GridCell>
-                <GridCell {...grid}>cell</GridCell>
-                <GridCell {...grid}>cell</GridCell>
-              </GridRow>
-              <GridRow {...grid}>
-                <GridCell {...grid}>cell</GridCell>
-                <GridCell {...grid}>cell</GridCell>
-                <GridCell {...grid}>cell</GridCell>
-              </GridRow>
-            </Grid>
-  </>
+</>
+           
 );
 
 }
