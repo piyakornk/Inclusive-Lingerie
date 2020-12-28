@@ -23,7 +23,6 @@ function ProductCard(){
         </RadioGroup>
 
        
-
             
         <p>Guide to Size</p>
         <MenuButton {...menu}>Size</MenuButton>
@@ -36,11 +35,10 @@ function ProductCard(){
                     console.log("clicked on button");}}
                 >XS
                 </MenuItem>
-
                 
             </Menu>
             
-            
+
      
         <p>Available</p>
         <h3>Description</h3>
