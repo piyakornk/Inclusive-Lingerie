@@ -29,13 +29,19 @@ function NavBar() {
         <nav className="navbar">
             <Toolbar {...toolbar} aria-label="My toolbar">
             <ToolbarItem {...toolbar} as={Button}>
-                Bras
+                <Link to='/Catalogue' className='nav-links' onClick={closeMobileMenu}>
+                    Bras
+                </Link>
             </ToolbarItem>
             <ToolbarItem {...toolbar} as={Button}>
-                Panties
+                <Link to='/Catalogue' className='nav-links' onClick={closeMobileMenu}>
+                    Panties
+                </Link>
             </ToolbarItem>
             <ToolbarItem {...toolbar} as={Button}>
-                Sets
+                <Link to='/Catalogue' className='nav-links' onClick={closeMobileMenu}>
+                    Sets
+                </Link>
             </ToolbarItem>
             </Toolbar>
 

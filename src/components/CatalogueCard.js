@@ -11,6 +11,10 @@ function CatalogueCard() {
                 <div className = "cards__item__info">
                     <h2 className = "cards__item__text"> 
                     </h2>
+                    <Link to='/Product' >
+                        Product
+    
+                </Link>
                 </div>
                 </li> 
         </>
