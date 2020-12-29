@@ -25,28 +25,29 @@ function NavBar() {
 
     return (
       <>
-        <nav className="NavBar">
-            <div className="NavBar container">
-            <Toolbar {...toolbar} aria-label="My toolbar">
-                <ToolbarItem {...toolbar} as={Button}>
-                    Bras
-                </ToolbarItem>
-                <ToolbarItem {...toolbar} as={Button}>
-                    Panties
-                </ToolbarItem>
-                <ToolbarItem {...toolbar} as={Button}>
-                    Sets
-                </ToolbarItem>
-                </Toolbar>    
+        <nav className="navbar">
+            <div className="navbar-container">
 
-            <Link to="/" className = "NavBar Logo">
+            <Link to="/" className = "navbar-logo">
                 <h1> LoveMe</h1>
             </Link>
+
+            <Toolbar {...toolbar} aria-label="My toolbar">
+            <ToolbarItem {...toolbar} as={Button}>
+                Bras
+            </ToolbarItem>
+            <ToolbarItem {...toolbar} as={Button}>
+                Panties
+            </ToolbarItem>
+            <ToolbarItem {...toolbar} as={Button}>
+                Sets
+            </ToolbarItem>
+            </Toolbar>
 
             <div className = "menu-icon" onClick={handleClick}>
                 <i className={click ? "fas fa-times" : "fas fa-bars"}> </i>
             </div>
-            
+
             <ul className = {click ? 'nav-menu active' : 'nav-menu'}>
                 <Toolbar {...toolbar} aria-label="My toolbar">
                 <ToolbarItem {...toolbar} as={Button}>
