@@ -7,11 +7,11 @@ import {
   } from "reakit/Grid";
 
 
-  function SizeTable(){
+  function BraSize(){
     const grid = useGridState();
     return(
     <>
-    <Grid {...grid} aria-label="Size Table">
+    <Grid {...grid} aria-label="Bras Size Table">
         <GridRow {...grid}>
             <GridCell {...grid}>Sizes</GridCell>
             <GridCell {...grid}>XXS - XS</GridCell>
@@ -73,5 +73,5 @@ import {
 
 }
 
-export default SizeTable;
+export default BraSize;
 

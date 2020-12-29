@@ -54,12 +54,12 @@ function NavBar() {
             <ul className = {click ? 'nav-menu active' : 'nav-menu'}>
                 <Toolbar {...toolbar} aria-label="My toolbar">
                 <ToolbarItem {...toolbar} as={Button}>
-                    <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                    <Link to='/AboutUs' className='nav-links' onClick={closeMobileMenu}>
                     About Us
                     </Link>
                 </ToolbarItem>
                 <ToolbarItem {...toolbar} as={Button}>
-                    <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                    <Link to='/SizeTable' className='nav-links' onClick={closeMobileMenu}>
                     Size Table
                     </Link>
                 </ToolbarItem>
