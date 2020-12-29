@@ -3,6 +3,7 @@ import {useToolbarState,Toolbar,ToolbarItem} from "reakit/Toolbar";
 import {Button} from "reakit";
 import {Link} from "react-router-dom";
 import './NavBar.css';
+
  
 function NavBar() {
     const [click, setClick] = useState(false);
@@ -26,12 +27,6 @@ function NavBar() {
     return (
       <>
         <nav className="navbar">
-            <div className="navbar-container">
-
-            <Link to="/" className = "navbar-logo">
-                <h1> LoveMe</h1>
-            </Link>
-
             <Toolbar {...toolbar} aria-label="My toolbar">
             <ToolbarItem {...toolbar} as={Button}>
                 Bras
@@ -43,6 +38,14 @@ function NavBar() {
                 Sets
             </ToolbarItem>
             </Toolbar>
+
+            <div className="navbar-container">
+
+            <Link to="/" className = "navbar-logo">
+                <h1> LoveMe</h1>
+            </Link>
+
+            
 
             <div className = "menu-icon" onClick={handleClick}>
                 <i className={click ? "fas fa-times" : "fas fa-bars"}> </i>
@@ -64,6 +67,8 @@ function NavBar() {
             </ul>
 
             </div>
+            
+            
         </nav>
 
         </>
