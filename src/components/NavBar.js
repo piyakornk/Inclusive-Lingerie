@@ -2,16 +2,43 @@ import React, {useState} from "react";
 import {useToolbarState,Toolbar,ToolbarItem} from "reakit/Toolbar"; 
 import {Button} from "reakit";
 import {Link} from "react-router-dom";
+import './NavBar.css';
  
 function NavBar() {
-    const toolbar = useToolbarState({ loop: true });
     const [click, setClick] = useState(false);
+    const [button, setButton] = useState(true);
+    
     const handleClick=()=> setClick(!click);
+    const closeMobileMenu = () => setClick(false);
+
+    const toolbar = useToolbarState({ loop: true });
+     
+    const showButton = () => {
+        if(window.innerWidth <= 960) {
+            setButton(false);
+        } else {
+            setButton(true);
+        }
+    }
+
+    window.addEventListener('resize', showButton);
 
     return (
       <>
         <nav className="NavBar">
             <div className="NavBar container">
+            <Toolbar {...toolbar} aria-label="My toolbar">
+                <ToolbarItem {...toolbar} as={Button}>
+                    Bras
+                </ToolbarItem>
+                <ToolbarItem {...toolbar} as={Button}>
+                    Panties
+                </ToolbarItem>
+                <ToolbarItem {...toolbar} as={Button}>
+                    Sets
+                </ToolbarItem>
+                </Toolbar>    
+
             <Link to="/" className = "NavBar Logo">
                 <h1> LoveMe</h1>
             </Link>
@@ -19,17 +46,21 @@ function NavBar() {
             <div className = "menu-icon" onClick={handleClick}>
                 <i className={click ? "fas fa-times" : "fas fa-bars"}> </i>
             </div>
-
-
-             <Toolbar {...toolbar} aria-label="My toolbar">
+            
+            <ul className = {click ? 'nav-menu active' : 'nav-menu'}>
+                <Toolbar {...toolbar} aria-label="My toolbar">
                 <ToolbarItem {...toolbar} as={Button}>
+                    <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                     About Us
+                    </Link>
                 </ToolbarItem>
                 <ToolbarItem {...toolbar} as={Button}>
-                    Size table
+                    <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                    Size Table
+                    </Link>
                 </ToolbarItem>
                 </Toolbar>    
-
+            </ul>
 
             </div>
         </nav>
