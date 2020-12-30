@@ -4,7 +4,8 @@ import laughingWomen from '../aboutUsLaughingWomen.png';
 
 function AboutUs() {
     return (
-        <div>
+        <div className='AboutUs'>
+            
             <h1>About Us</h1>
             <img src={laughingWomen} alt="Laughing women cherishing their diversity in shape" />
             <h2>Our Belief</h2>
