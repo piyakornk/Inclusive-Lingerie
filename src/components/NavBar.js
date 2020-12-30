@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import {useToolbarState,Toolbar,ToolbarItem} from "reakit/Toolbar"; 
 import {Button} from "reakit";
 import {Link} from "react-router-dom";
+import LoveMeLogo from "./LoveMeLogo.svg";
 import './NavBar.css';
 
  
@@ -27,37 +28,38 @@ function NavBar() {
     return (
       <>
         <nav className="navbar">
-            <Toolbar {...toolbar} aria-label="My toolbar">
-            <ToolbarItem {...toolbar} as={Button}>
-                <Link to='/Catalogue' className='nav-links' onClick={closeMobileMenu}>
-                    Bras
-                </Link>
-            </ToolbarItem>
-            <ToolbarItem {...toolbar} as={Button}>
-                <Link to='/Catalogue' className='nav-links' onClick={closeMobileMenu}>
-                    Panties
-                </Link>
-            </ToolbarItem>
-            <ToolbarItem {...toolbar} as={Button}>
-                <Link to='/Catalogue' className='nav-links' onClick={closeMobileMenu}>
-                    Sets
-                </Link>
-            </ToolbarItem>
-            </Toolbar>
-
-            <div className="navbar-container">
-
-            <Link to="/" className = "navbar-logo">
-                <h1> LoveMe</h1>
-            </Link>
-
             
-
+            <div className="navbar-container">
+            <Link to="/Home" className = "navbar-logo">
+            <img src={LoveMeLogo} alt="The logo of Love Me"/>
+            </Link>
+            
             <div className = "menu-icon" onClick={handleClick}>
                 <i className={click ? "fas fa-times" : "fas fa-bars"}> </i>
             </div>
 
             <ul className = {click ? 'nav-menu active' : 'nav-menu'}>
+                <Toolbar {...toolbar} aria-label="My toolbar">
+                <ToolbarItem {...toolbar} as={Button}>
+                    <Link to='/Catalogue' className='nav-links' onClick={closeMobileMenu}>
+                        Bras
+                    </Link>
+                </ToolbarItem>
+                <ToolbarItem {...toolbar} as={Button}>
+                    <Link to='/Catalogue' className='nav-links' onClick={closeMobileMenu}>
+                        Panties
+                    </Link>
+                </ToolbarItem>
+                <ToolbarItem {...toolbar} as={Button}>
+                    <Link to='/Catalogue' className='nav-links' onClick={closeMobileMenu}>
+                        Sets
+                    </Link>
+                </ToolbarItem>
+                </Toolbar>
+
+                
+                
+                
                 <Toolbar {...toolbar} aria-label="My toolbar">
                 <ToolbarItem {...toolbar} as={Button}>
                     <Link to='/AboutUs' className='nav-links' onClick={closeMobileMenu}>
