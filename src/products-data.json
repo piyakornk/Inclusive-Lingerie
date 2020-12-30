@@ -10,8 +10,8 @@
 		"availabilityOnSize": [1, 1, 1, 0, 0, 1, 1, 1, 0],
 		"similarProducts" : [101, 103, 200],
 		"coverImage" : {
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/ExampleImage.png",
+                            "alternateText": "it. does. woooooork."
                         },
         "otherImages" : [{
                             "title": "",
