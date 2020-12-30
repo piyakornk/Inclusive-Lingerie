@@ -2,6 +2,7 @@ import React from "react";
 import './App.css';
 
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 
@@ -24,6 +25,7 @@ function App(){
           <Route path="/Catalogue" exact component= {Catalogue} />
           <Route path="/Product" exact component= {Product} />
         </Switch>
+        <Footer />
       </Router>
   
 </>
