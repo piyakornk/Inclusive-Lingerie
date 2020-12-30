@@ -7,11 +7,11 @@ import {
   } from "reakit/Grid";
 
 
-  function BraSize(){
+  function BumSize(){
     const grid = useGridState();
     return(
     <>
-    <Grid {...grid} aria-label="Bras Size Table">
+    <Grid {...grid} aria-label="Pants Size Table">
         <GridRow {...grid}>
             <GridCell {...grid}>Sizes</GridCell>
             <GridCell {...grid}>XXS</GridCell>
@@ -51,27 +51,27 @@ import {
         </GridRow>
         <GridRow {...grid}>
             <GridCell {...grid}>Italy</GridCell>
-            <GridCell {...grid}>0</GridCell>
-            <GridCell {...grid}>1</GridCell>
-            <GridCell {...grid}>2</GridCell>
-            <GridCell {...grid}>3</GridCell>
-            <GridCell {...grid}>4</GridCell>
-            <GridCell {...grid}>5</GridCell>
-            <GridCell {...grid}>6</GridCell>
-            <GridCell {...grid}>7</GridCell>
-            <GridCell {...grid}>8</GridCell>
+            <GridCell {...grid}>38</GridCell>
+            <GridCell {...grid}>40</GridCell>
+            <GridCell {...grid}>42</GridCell>
+            <GridCell {...grid}>44</GridCell>
+            <GridCell {...grid}>46</GridCell>
+            <GridCell {...grid}>48</GridCell>
+            <GridCell {...grid}>50</GridCell>
+            <GridCell {...grid}>52</GridCell>
+            <GridCell {...grid}>54</GridCell>
         </GridRow>
         <GridRow {...grid}>
             <GridCell {...grid}>France</GridCell>
-            <GridCell {...grid}>80</GridCell>
-            <GridCell {...grid}>85</GridCell>
-            <GridCell {...grid}>90</GridCell>
-            <GridCell {...grid}>95</GridCell>
-            <GridCell {...grid}>100</GridCell>
-            <GridCell {...grid}>105</GridCell>
-            <GridCell {...grid}>110</GridCell>
-            <GridCell {...grid}>115</GridCell>
-            <GridCell {...grid}>120</GridCell>
+            <GridCell {...grid}>34</GridCell>
+            <GridCell {...grid}>36</GridCell>
+            <GridCell {...grid}>38</GridCell>
+            <GridCell {...grid}>40</GridCell>
+            <GridCell {...grid}>42</GridCell>
+            <GridCell {...grid}>44</GridCell>
+            <GridCell {...grid}>46</GridCell>
+            <GridCell {...grid}>48</GridCell>
+            <GridCell {...grid}>50</GridCell>
         </GridRow>
     </Grid>
   </>
@@ -79,5 +79,5 @@ import {
 
 }
 
-export default BraSize;
+export default BumSize;
 
