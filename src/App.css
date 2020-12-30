@@ -5,23 +5,27 @@
   font-family: "PT Sans", sans-serif;
 }
 
-.home,
-.services,
-.products,
-.sign-up {
+ {
+  /*this is css for the whole file*/
+}
+ {
+  /*}
+.Home,
+.AboutUs,
+.Catalogue,
+.Product,
+.SizeTable {
   display: flex;
   height: 90vh;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   font-size: 3rem;
 }
 
-.services {
+.AboutUs {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
 }
 
 .products {
@@ -38,4 +42,6 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+}
+*/
 }
