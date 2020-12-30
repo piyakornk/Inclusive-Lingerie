@@ -7,9 +7,9 @@ function SizeTable() {
     return (
         <div>
             <h1>Guide to all sizes</h1>
-            <h2>Bra Size</h2>
+            <h2>Bras Size</h2>
             <BraSize/>
-            <h2>Pant Size</h2>
+            <h2>Pants Size</h2>
             <BumSize/>
         </div>
     )
