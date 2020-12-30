@@ -6,7 +6,7 @@ function Home (){
         <> 
         <h1>Special Offer</h1>
         <p>some content home</p>
-        <img src={require('./productCoverTiffany')}/>
+        <img src={'./ExampleImage.png'} alt="porca miseriaccia"/>
         </>
 
     );

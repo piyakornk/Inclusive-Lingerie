@@ -1,10 +1,302 @@
 [
-    {
-        "id" : 1,
-        "name" : "Marta"
-    },
-    {
-        "id" : 2,
-        "name" : "Franc"
-    }
+	{
+		"id" : 100,
+		"title" : "Tiffany Lace Bra",
+		"price" : 32.00,
+		"colors" : ["000000-Black", "35CCCA-Tiffany", "C4C4C4-Grey"],
+		"sizes" : ["XXS", "XS", "S", "M", "L", "XL", "XXL", "3XL", "4XL"],
+		"description" : "Comfortable and cute for every woman. Emphasizes the natural beauty of all individuals with a design that does not subtract comfort for the aesthetics.",
+		"material" : "Cotton: 75%, Viscose: 25%",
+		"availabilityOnSize": [1, 1, 1, 0, 0, 1, 1, 1, 0],
+		"similarProducts" : [101, 103, 200],
+		"coverImage" : {
+                            "path" : "",
+                            "alternateText": ""
+                        },
+        "otherImages" : [{
+                            "title": "",
+                            "path" : "",
+                            "alternateText": ""
+                        },
+                        {
+                            "title": "",
+                            "path" : "",
+                            "alternateText": ""
+                        },
+                        {
+                            "title": "",
+                            "path" : "",
+                            "alternateText": ""
+                        }]
+	},
+	{
+		"id" : 101,
+		"title" : "Blushed Bra",
+		"price" : 26.00,
+		"colors" : ["EBC3CC-Blush", "B46CB1-Purple", "1B197D-Navy"],
+		"sizes" : ["XXS", "XS", "S", "M", "L", "XL", "XXL", "3XL", "4XL"],
+		"description" : "Embrace your femmininity with the soft touch of the Blushed Bra. Perfect on any skintone, Blushed lets your true beauty shine through.",
+		"material" : "Cotton: 75%, Viscose: 25%",
+		"availabilityOnSize": [0, 0, 1, 1, 1, 0, 1, 1, 1],
+		"similarProducts" : [103, 203, 201],
+		"coverImage" : {
+                            "path" : "",
+                            "alternateText": ""
+                        },
+        "otherImages" : [{
+                            "title": "",
+                            "path" : "",
+                            "alternateText": ""
+                        },
+                        {
+                            "title": "",
+                            "path" : "",
+                            "alternateText": ""
+                        },
+                        {
+                            "title": "",
+                            "path" : "",
+                            "alternateText": ""
+                        }]
+	},
+	{
+		"id" : 102,
+		"title" : "Strap Madame Bra",
+		"price" : 30.00,
+		"colors" : ["000000-Black", "893030-Burgundy", "F40202-Red"],
+		"sizes" : ["XXS", "XS", "S", "M", "L", "XL", "XXL", "3XL", "4XL"],
+		"description" : "Satin elastic enhance your curves giving the appearence of a harness. Power and beauty go hand in hand with the Strap Madame sheer bra.",
+		"material" : "Polyamide: 80%, Cotton: 20%, Elastane: 10%",
+		"availabilityOnSize": [1, 1, 1, 1, 1, 1, 1, 0, 1],
+		"similarProducts" : [300, 201, 100],
+		"coverImage" : {
+                            "path" : "",
+                            "alternateText": ""
+                        },
+        "otherImages" : [{
+                            "title": "",
+                            "path" : "",
+                            "alternateText": ""
+                        },
+                        {
+                            "title": "",
+                            "path" : "",
+                            "alternateText": ""
+                        },
+                        {
+                            "title": "",
+                            "path" : "",
+                            "alternateText": ""
+                        }]
+	},
+	{
+		"id" : 103,
+		"title" : "Flower Power Bra",
+		"price" : 26.00,
+		"colors" : ["000000-Black", "2B773B-Green", "EF7B96-Pink"],
+		"sizes" : ["XXS", "XS", "S", "M", "L", "XL", "XXL", "3XL", "4XL"],
+		"description" : "Embroided details and a touch of lace for that feminine touch to wear on a daily bases to feel beautiful and precious.",
+		"material" : "Cotton: 65%, Polyamide: 25%, Elastane: 10%",
+		"availabilityOnSize": [0, 1, 1, 1, 1, 0, 1, 0, 0],
+		"similarProducts" : [200, 100, 301],
+		"coverImage" : {
+                            "path" : "",
+                            "alternateText": ""
+                        },
+        "otherImages" : [{
+                            "title": "",
+                            "path" : "",
+                            "alternateText": ""
+                        },
+                        {
+                            "title": "",
+                            "path" : "",
+                            "alternateText": ""
+                        },
+                        {
+                            "title": "",
+                            "path" : "",
+                            "alternateText": ""
+                        }]
+	},
+	{
+		"id" : 200,
+		"title" : "Flower Power Panties",
+		"price" : 8.00,
+		"colors" : ["000000-Black", "2B773B-Green", "EF7B96-Pink"],
+		"sizes" : ["XXS", "XS", "S", "M", "L", "XL", "XXL", "3XL", "4XL"],
+		"description" : "Tasteful embroided flowers for a unique delicate look. Feel precious by wearing something settled but yet special.",
+		"material" : "Cotton: 65%, Elastane: 35%",
+		"availabilityOnSize": [1, 1, 1, 0, 1, 1, 0, 1, 1],
+		"similarProducts" : [103, 102, 203],
+		"coverImage" : {
+                            "path" : "",
+                            "alternateText": ""
+                        },
+        "otherImages" : [{
+                            "title": "",
+                            "path" : "",
+                            "alternateText": ""
+                        },
+                        {
+                            "title": "",
+                            "path" : "",
+                            "alternateText": ""
+                        },
+                        {
+                            "title": "",
+                            "path" : "",
+                            "alternateText": ""
+                        }]
+	},
+	{
+		"id" : 201,
+		"title" : "Criss Cross Panties",
+		"price" : 7.00,
+		"colors" : ["C92F54-Purple", "6E7CC6-Ash", "000000-Black"],
+		"sizes" : ["XXS", "XS", "S", "M", "L", "XL", "XXL", "3XL", "4XL"],
+		"description" : "Untie your shoes and lace-up your briefs. Slip into your night-in outfit for sexy times with fashion details given by the geometric laces on the front of the panties with metal details.",
+		"material" : "Cotton: 90%, Polyamide: 10%",
+		"availabilityOnSize": [0, 1, 0, 1, 1, 0, 0, 1, 1],
+		"similarProducts" : [102, 300, 202],
+		"coverImage" : {
+                            "path" : "",
+                            "alternateText": ""
+                        },
+        "otherImages" : [{
+                            "title": "",
+                            "path" : "",
+                            "alternateText": ""
+                        },
+                        {
+                            "title": "",
+                            "path" : "",
+                            "alternateText": ""
+                        },
+                        {
+                            "title": "",
+                            "path" : "",
+                            "alternateText": ""
+                        }]
+	},
+	{
+		"id" : 202,
+		"title" : "Redy Panties",
+		"price" : 6.00,
+		"colors" : ["F40202-Red", "FFF9F0-Ivory", "B88888-Nude"],
+		"sizes" : ["XXS", "XS", "S", "M", "L", "XL", "XXL", "3XL", "4XL"],
+		"description" : "You don't have to get Redy if you stay Redy! Feel your odds with a higher coverage briefs that enhance your natural beauty with a mesh back side.",
+		"material" : "Cotton: 55%, Polyamide: 40%, Elastane: 5%",
+		"availabilityOnSize": [1, 0, 1, 1, 1, 1, 1, 1, 1],
+		"similarProducts" : [301, 101, 203],
+		"coverImage" : {
+                            "path" : "",
+                            "alternateText": ""
+                        },
+        "otherImages" : [{
+                            "title": "",
+                            "path" : "",
+                            "alternateText": ""
+                        },
+                        {
+                            "title": "",
+                            "path" : "",
+                            "alternateText": ""
+                        },
+                        {
+                            "title": "",
+                            "path" : "",
+                            "alternateText": ""
+                        }]
+	},
+	{
+		"id" : 203,
+		"title" : "Self Love Panties",
+		"price" : 7.00,
+		"colors" : ["753D78-Violet", "FFFFFF-White", "000000-Black"],
+		"sizes" : ["XXS", "XS", "S", "M", "L", "XL", "XXL", "3XL", "4XL"],
+		"description" : "Comfort and practical does not mean less cute! Enjoy the comfort of a sporty fit while embracing your beauty. The Self Love elastic band is there as a reminder of your worth and beauty.",
+		"material" : "Cotton: 95%, Elastane: 5%",
+		"availabilityOnSize": [1, 1, 1, 1, 1, 1, 1, 1, 1],
+		"similarProducts" : [101, 200, 202],
+		"coverImage" : {
+                            "path" : "",
+                            "alternateText": ""
+                        },
+        "otherImages" : [{
+                            "title": "",
+                            "path" : "",
+                            "alternateText": ""
+                        },
+                        {
+                            "title": "",
+                            "path" : "",
+                            "alternateText": ""
+                        },
+                        {
+                            "title": "",
+                            "path" : "",
+                            "alternateText": ""
+                        }]
+	},
+	{
+		"id" : 300,
+		"title" : "Venom Set",
+		"price" : 65.00,
+		"colors" : ["F4EEE6-Ivory", "000000-Black", "B01F1F-Burgundy"],
+		"sizes" : ["XXS", "XS", "S", "M", "L", "XL", "XXL", "3XL", "4XL"],
+		"description" : "For those times when you feel dangerous and sensual. Embrace your inner beast by wearing Venom and get wild.",
+		"material" : "Cotton: 40%, Polyamide: 40%, Poliester: 15%, Elastane: 5%",
+		"availabilityOnSize": [1, 1, 1, 1, 1, 1, 1, 1, 1],
+		"similarProducts" : [102, 201, 301],
+		"coverImage" : {
+                            "path" : "",
+                            "alternateText": ""
+                        },
+        "otherImages" : [{
+                            "title": "",
+                            "path" : "",
+                            "alternateText": ""
+                        },
+                        {
+                            "title": "",
+                            "path" : "",
+                            "alternateText": ""
+                        },
+                        {
+                            "title": "",
+                            "path" : "",
+                            "alternateText": ""
+                        }]
+	},
+	{
+		"id" : 301,
+		"title" : "Candy Cane Set",
+		"price" : 45.00,
+		"colors" : ["D13B56-Strawberry", "ACFAC2-Mint", "AE6983-Antique"],
+		"sizes" : ["XXS", "XS", "S", "M", "L", "XL", "XXL", "3XL", "4XL"],
+		"description" : "Spice up the festive nights with this sugary set. But don't get too naughty if you still want to receive presents...",
+		"material" : "Cotton: 50%, Polyamide: 45%, Elastane: 5%",
+		"availabilityOnSize": [1, 0, 1, 0, 0, 0, 1, 1, 1],
+		"similarProducts" : [202, 300, 101],
+		"coverImage" : {
+                            "path" : "",
+                            "alternateText": ""
+                        },
+		"otherImages" : [{
+                            "title": "",
+                            "path" : "",
+                            "alternateText": ""
+                        },
+                        {
+                            "title": "",
+                            "path" : "",
+                            "alternateText": ""
+                        },
+                        {
+                            "title": "",
+                            "path" : "",
+                            "alternateText": ""
+                        }]
+	}
 ]
