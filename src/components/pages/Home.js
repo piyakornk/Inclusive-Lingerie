@@ -9,7 +9,6 @@ function Home (){
         <p>some content home</p>
         <img src={process.env.PUBLIC_URL + DataJson[0].coverImage.path} alt={DataJson[0].coverImage.alternateText}/>
         </>
-
     );
 }
 
