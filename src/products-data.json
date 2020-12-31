@@ -10,23 +10,20 @@
 		"availabilityOnSize": [1, 1, 1, 0, 0, 1, 1, 1, 0],
 		"similarProducts" : [101, 103, 200],
 		"coverImage" : {
-                            "path" : "/Images/ExampleImage.png",
-                            "alternateText": "it. does. woooooork."
+                            "path" : "/Images/TiffanyLaceBraProductCover.jpg",
+                            "alternateText": "Curvy model wearing the balconette tiffany bra with black lace"
                         },
         "otherImages" : [{
-                            "title": "",
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/TiffanyLaceBraM1.jpg",
+                            "alternateText": "Thinner model wearing the balconette tiffany bra with black lace"
                         },
                         {
-                            "title": "",
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/TiffanyLaceBraM2.jpg",
+                            "alternateText": "Curvy model wearing the balconette tiffany bra with black lace"
                         },
                         {
-                            "title": "",
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/TiffanyLaceBraO.jpg",
+                            "alternateText": "Balconette tiffany bra with black lace"
                         }]
 	},
 	{
@@ -40,23 +37,20 @@
 		"availabilityOnSize": [0, 0, 1, 1, 1, 0, 1, 1, 1],
 		"similarProducts" : [103, 203, 201],
 		"coverImage" : {
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/BlushedBraProductCover.jpg",
+                            "alternateText": "Curvy model wearing the balconette blush bra with black details"
                         },
         "otherImages" : [{
-                            "title": "",
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/BlushedBraM1.jpg",
+                            "alternateText": "Thinner model wearing the balconette blush bra with black details"
                         },
                         {
-                            "title": "",
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/BlushedBraM2.jpg",
+                            "alternateText": "Curvy model wearing the balconette blush bra with black details"
                         },
                         {
-                            "title": "",
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/BlushedBraO.jpg",
+                            "alternateText": "Balconette blush bra with black details"
                         }]
 	},
 	{
@@ -70,23 +64,20 @@
 		"availabilityOnSize": [1, 1, 1, 1, 1, 1, 1, 0, 1],
 		"similarProducts" : [300, 201, 100],
 		"coverImage" : {
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/StrapMadameBraProductCover.jpg",
+                            "alternateText": "Model wearing the black mesh bra with straps resembling an harness"
                         },
         "otherImages" : [{
-                            "title": "",
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/StrapMadameBraM1.jpg",
+                            "alternateText": "Thinner model wearing the black mesh bra with straps resembling an harness"
                         },
                         {
-                            "title": "",
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/StrapMadameBraM2.jpg",
+                            "alternateText": "Curvy model wearing the black mesh bra with straps resembling an harness"
                         },
                         {
-                            "title": "",
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/StrapMadameBraM3.jpg",
+                            "alternateText": "Taller model wearing the black mesh bra with straps resembling an harness"
                         }]
 	},
 	{
@@ -100,23 +91,20 @@
 		"availabilityOnSize": [0, 1, 1, 1, 1, 0, 1, 0, 0],
 		"similarProducts" : [200, 100, 301],
 		"coverImage" : {
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/FlowerPowerBraProductCover.jpg",
+                            "alternateText": "Model wearing the nude bra with black lace and embroided roses details"
                         },
         "otherImages" : [{
-                            "title": "",
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/FlowerPowerBraM1.jpg",
+                            "alternateText": "Thinner model wearing the nude bra with black lace and embroided roses details"
                         },
                         {
-                            "title": "",
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/FlowerPowerBraM2.jpg",
+                            "alternateText": "Curvy model wearing the nude bra with black lace and embroided roses details"
                         },
                         {
-                            "title": "",
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/FlowerPowerBraO.jpg",
+                            "alternateText": "The nude bra with black lace and embroided roses details"
                         }]
 	},
 	{
@@ -130,23 +118,20 @@
 		"availabilityOnSize": [1, 1, 1, 0, 1, 1, 0, 1, 1],
 		"similarProducts" : [103, 102, 203],
 		"coverImage" : {
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/FlowerPowerPantiesProductCover.jpg",
+                            "alternateText": "Model wearing the nude brazilian panties with black lace and embroided roses details"
                         },
         "otherImages" : [{
-                            "title": "",
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/FlowerPowerPantiesM1.jpg",
+                            "alternateText": "Thinner model wearing the nude brazilian panties with black lace and embroided roses details"
                         },
                         {
-                            "title": "",
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/FlowerPowerPantiesM2.jpg",
+                            "alternateText": "Curvy model wearing the nude brazilian panties with black lace and embroided roses details"
                         },
                         {
-                            "title": "",
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/FlowerPowerPantiesO.jpg",
+                            "alternateText": "The nude brazilian panties with black lace and embroided roses details"
                         }]
 	},
 	{
@@ -160,23 +145,20 @@
 		"availabilityOnSize": [0, 1, 0, 1, 1, 0, 0, 1, 1],
 		"similarProducts" : [102, 300, 202],
 		"coverImage" : {
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/CrissCrossPantiesProductCover.jpg",
+                            "alternateText": "Model wearing black brazilian panties laced up geometrically on the front"
                         },
         "otherImages" : [{
-                            "title": "",
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/CrissCrossPantiesM1.jpg",
+                            "alternateText": "Thinner model wearing black brazilian panties laced up geometrically on the front"
                         },
                         {
-                            "title": "",
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/CrissCrossPantiesM2.jpg",
+                            "alternateText": "Curvy model wearing black brazilian panties laced up geometrically on the front"
                         },
                         {
-                            "title": "",
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/CrissCrossPantiesO.jpg",
+                            "alternateText": "The black brazilian panties laced up geometrically on the front"
                         }]
 	},
 	{
@@ -190,23 +172,20 @@
 		"availabilityOnSize": [1, 0, 1, 1, 1, 1, 1, 1, 1],
 		"similarProducts" : [301, 101, 203],
 		"coverImage" : {
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/RedyPantiesProductCover.png",
+                            "alternateText": "Model wearing the red culotte panties with a mesh backside and lace borders"
                         },
         "otherImages" : [{
-                            "title": "",
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/RedyPantiesM1.jpg",
+                            "alternateText": "Thinner model wearing the red culotte panties with a mesh backside and lace borders"
                         },
                         {
-                            "title": "",
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/RedyPantiesM2.jpg",
+                            "alternateText": "Curvy model wearing the red culotte panties with a mesh backside and lace borders"
                         },
                         {
-                            "title": "",
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/RedyPantiesO.jpg",
+                            "alternateText": "The red culotte panties with a mesh backside and lace borders"
                         }]
 	},
 	{
@@ -220,23 +199,20 @@
 		"availabilityOnSize": [1, 1, 1, 1, 1, 1, 1, 1, 1],
 		"similarProducts" : [101, 200, 202],
 		"coverImage" : {
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/SelfLovePantiesProductCover.jpg",
+                            "alternateText": "Model wearing the sporty purple panties with white elastic band with black text"
                         },
         "otherImages" : [{
-                            "title": "",
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/SelfLovePantiesM1.jpg",
+                            "alternateText": "Thinner model wearing the sporty purple panties with white elastic band with black text"
                         },
                         {
-                            "title": "",
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/SelfLovePantiesM2.jpg",
+                            "alternateText": "Curvy model wearing the sporty purple panties with white elastic band with black text"
                         },
                         {
-                            "title": "",
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/SelfLovePantiesO.jpg",
+                            "alternateText": "The sporty purple panties with white elastic band with black text"
                         }]
 	},
 	{
@@ -250,23 +226,20 @@
 		"availabilityOnSize": [1, 1, 1, 1, 1, 1, 1, 1, 1],
 		"similarProducts" : [102, 201, 301],
 		"coverImage" : {
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/VenomSetProductCover.jpg",
+                            "alternateText": "Model wearing the ivory corset bra with black details and embroided black snakes on the front"
                         },
         "otherImages" : [{
-                            "title": "",
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/VenomSetM1.jpg",
+                            "alternateText": "Thin model wearing the ivory corset bra with black details and embroided black snakes on the front"
                         },
                         {
-                            "title": "",
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/VenomSetM2.jpg",
+                            "alternateText": "Curvy model wearing the ivory corset bra with black details and embroided black snakes on the front"
                         },
                         {
-                            "title": "",
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/VenomSetO.jpg",
+                            "alternateText": "the ivory corset bra with black details and embroided black snakes on the front"
                         }]
 	},
 	{
@@ -280,23 +253,20 @@
 		"availabilityOnSize": [1, 0, 1, 0, 0, 0, 1, 1, 1],
 		"similarProducts" : [202, 300, 101],
 		"coverImage" : {
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/CandycaneSetProductCover.jpg",
+                            "alternateText": "Model wearing the red and white striped bra corset and panties set"
                         },
 		"otherImages" : [{
-                            "title": "",
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/CandycaneSetM1.jpg",
+                            "alternateText": "Thinner model wearing the red and white striped bra corset and panties set"
                         },
                         {
-                            "title": "",
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/CandycaneSetM2.jpg",
+                            "alternateText": "Curvy model wearing the red and white striped bra corset and panties set"
                         },
                         {
-                            "title": "",
-                            "path" : "",
-                            "alternateText": ""
+                            "path" : "/Images/CandycaneSetO.jpg",
+                            "alternateText": "The red and white corset"
                         }]
 	}
 ]
