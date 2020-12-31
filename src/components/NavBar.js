@@ -26,7 +26,7 @@ function NavBar() {
         <nav className="navbar">
             
             <div className="navbar-container">
-            <Link to="/Home" className = "navbar-logo">
+            <Link to="/" className = "navbar-logo">
                 <img src={LoveMeLogo} alt="The logo of Love Me"/>
             </Link>
             
