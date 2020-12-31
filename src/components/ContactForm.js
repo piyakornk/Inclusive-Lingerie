@@ -3,8 +3,6 @@ import {
   unstable_useFormState as useFormState,
   unstable_Form as Form,
   unstable_FormLabel as FormLabel,
-  unstable_FormRemoveButton as FormRemoveButton,
-  unstable_FormPushButton as FormPushButton,
   unstable_FormSubmitButton as FormSubmitButton,
   unstable_FormInput as FormInput,
   unstable_FormMessage as FormMessage,
