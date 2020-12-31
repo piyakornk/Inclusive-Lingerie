@@ -1,13 +1,12 @@
 import React from 'react'
 import '../../App.css'
-import laughingWomen from '../aboutUsLaughingWomen.png';
 
 function AboutUs() {
     return (
         <div className='AboutUs'>
             
             <h1>About Us</h1>
-            <img src={laughingWomen} alt="Laughing women cherishing their diversity in shape" />
+            <img src={process.env.PUBLIC_URL + "/Images/aboutUsLaughingWomen.png"} alt="Laughing women cherishing their diversity in shape"/>
             <h2>Our Belief</h2>
             <p>Beauty is not defined by size, color, height or anything else. Beauty is not how you look compared with some unreachable standard. Beauty is how you see yourself, how comfortable you are with your body and most of all, how much you love yourself. </p>
             <p>Every person on Earth should have the opportunity to feel beautiful and validated. It is for this reason that we created the LoveMe lingerie line with sizes that span from XXS to 4XL in order to accommodate as many women’s needs as possible. We try our best to have a fit for all people, because everybody has the right to feel powerful and desirable and love their body. </p>
