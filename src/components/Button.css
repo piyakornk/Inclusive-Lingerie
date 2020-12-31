@@ -1,0 +1,28 @@
+.btn {
+  outline: 0;
+  color: #ffe1cc;
+  background: #41003a;
+  padding: 0.5rem 2rem;
+  line-height: 2;
+  border: transparent;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-size: 16px;
+
+  &:focus {
+    box-shadow: 0 0 0 0.2em rgba(0, 109, 255, 0.4);
+  }
+
+  &:not([disabled]),
+  &:not([aria-disabled="true"]) {
+    &:hover {
+      color: #ffffff;
+      background-color: #0062e6;
+    }
+    &:active,
+    &[data-active="true"] {
+      color: #ffffff;
+      background-color: #004eb8;
+    }
+  }
+}
