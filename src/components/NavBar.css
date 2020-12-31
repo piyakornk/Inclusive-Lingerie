@@ -125,7 +125,7 @@
   .menu-icon {
     display: block;
     position: absolute;
-    background-color: gray;
+    background-color: #41003a;
     top: 0;
     right: 0;
     transform: translate(-100%, 60%);
