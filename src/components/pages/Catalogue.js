@@ -20,11 +20,11 @@ function Catalogue() {
     //const products = DataJson.map(product => <CatalogueCard product={product} )
 
     return (
-        <div className="cards">
-            <h2>look at them!</h2>
-            <div className = "cards__containter">
-                <div className = "cards__wrapper">
-                    <ul className="cards__items">
+        <div className='cards'>
+            <h1>look at them!</h1>
+            <div className='cards__container'>
+                <div className='cards__wrapper'>
+                    <ul className='cards__items'>
                     {
                         products
                     }

@@ -24,8 +24,8 @@ function CatalogueCard({product}) {
     */
    return (
     <>
-        <li className = "card__item">
-            <Link className = "cards__item__link" to='/Product' >
+        <li className="card__item">
+            <Link className="cards__item__link" to='/Product' >
                 <figure className="cards__item__pic-wrap">
                     <img src={process.env.PUBLIC_URL + product.coverImage.path} alt={process.env.PUBLIC_URL + product.coverImage.alternateText} className="cards__item__img"/>
                 </figure>
