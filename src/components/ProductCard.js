@@ -1,14 +1,19 @@
 import React from "react"; 
 import {useMenuState,Menu,MenuItem,MenuButton} from "reakit/Menu";
 import {useRadioState, Radio, RadioGroup} from "reakit/Radio";
+import Product from "./pages/Product";
 
-function ProductCard(){
+
+function ProductCard({product}){
     const menu = useMenuState();
     const radio = useRadioState({ state: "lime green as Luca" });
 
+    
+
     return(
         <>
-        <h1>Product Title</h1>
+        <h1>Product Title :</h1>
+        <h1> {product.title}</h1>
         <h2>Price</h2>
         <RadioGroup {...radio} aria-label="colours">
             <label>

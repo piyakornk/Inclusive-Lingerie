@@ -1,6 +1,6 @@
 import react from 'react'
 import "../../App.css"
-import DataJson from "../../products-data.json"
+
 import ButtonMaster from "../Button"
 
 function Home (){
