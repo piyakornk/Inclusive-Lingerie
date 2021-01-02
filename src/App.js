@@ -22,8 +22,8 @@ function App(){
           <Route path="/" exact component= {Home} />
           <Route path="/AboutUs" exact component= {AboutUs} />
           <Route path="/SizeTable" exact component= {SizeTable} />
-          <Route path="/Catalogue" exact component= {Catalogue} />
-          <Route path="/Product" exact component= {Product} />
+          <Route path={"/Catalogue/:type"} exact component= {Catalogue} />
+          <Route path={"/Product/:id"} exact component= {Product} />
         </Switch>
         <Footer />
       </Router>
