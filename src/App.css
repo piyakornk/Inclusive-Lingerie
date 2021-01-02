@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Segoe UI", sans-serif;
+  font-family: 'Segoe UI';
 }
 
 
@@ -18,7 +18,7 @@
   //font-size: 3rem;
   color: #550000; 
   background: #fcf3f5;
-  padding: 50px 50px;
+  padding: 50px 100px;
 }
 
 .Home {
