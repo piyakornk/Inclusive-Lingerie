@@ -2,9 +2,11 @@ import React from "react";
 import {useMenuState,Menu,MenuItem,MenuButton} from "reakit/Menu";
 import {useRadioState, Radio, RadioGroup} from "reakit/Radio";
 import Product from "./pages/Product";
+import ColorsButtons from "./ColorsButtons";
 
 
 function ProductCard({product}){
+
     const menu = useMenuState();
     const radio = useRadioState({ state: "lime green as Luca" });
 
@@ -15,6 +17,7 @@ function ProductCard({product}){
         <h1>Product Title :</h1>
         <h1> {product.title}</h1>
         <h2>Price</h2>
+        <ColorsButtons product={product}/>
         <RadioGroup {...radio} aria-label="colours">
             <label>
                 <Radio {...radio} value="neon pink as my nose" /> neon pink as my nose
