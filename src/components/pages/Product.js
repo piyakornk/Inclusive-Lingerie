@@ -8,7 +8,7 @@ function Product(props) {
     const selectedId = parseInt(props.match.params.id, 10)
     const products = DataJson.map(product =>{ if(product.id==selectedId){ return(<ProductCard product={product}/>)}})
     return (
-        <div>
+        <div className='Product'>
             <h1>Here is your product</h1>
             { products }
         </div>

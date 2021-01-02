@@ -2,46 +2,42 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Segoe UI", sans-serif;
 }
 
- {
-  /*this is css for the whole file*/
-}
- {
-  /*}
+
 .Home,
 .AboutUs,
 .Catalogue,
 .Product,
 .SizeTable {
-  display: flex;
-  height: 90vh;
-  align-items: left;
-  justify-content: center;
-  font-size: 3rem;
+  //display: flex;
+  //height: 90vh;
+  //align-items: left;
+  //justify-content: center;
+  //font-size: 3rem;
+  color: #550000; 
+  background: #fcf3f5;
+  padding: 50px 50px;
+}
+
+.Home {
+
 }
 
 .AboutUs {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  
 }
 
-.products {
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+.Product {
+  
 }
 
-.sign-up {
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+.Catalogue {
+  
 }
-*/
+
+
+.SizeTable{
+  
 }

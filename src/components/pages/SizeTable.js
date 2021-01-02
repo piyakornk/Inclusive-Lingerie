@@ -5,7 +5,7 @@ import BumSize from '../BumSize'
 
 function SizeTable() {
     return (
-        <div>
+        <div className='SizeTable'>
             <h1>Guide to all sizes</h1>
             <h2>Bras Size</h2>
             <BraSize/>
