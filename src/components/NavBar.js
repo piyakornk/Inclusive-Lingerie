@@ -13,7 +13,7 @@ function NavBar() {
     const closeMobileMenu = () => setClick(false);
      
     const showButton = () => {
-        if(window.innerWidth <= 960) {
+        if(window.innerWidth <= 200) {
             setButton(false);
         } else {
             setButton(true);
@@ -70,7 +70,7 @@ function NavBar() {
                     Size Table
                 </Link>
                 </li>
-                    
+
             </ul>
 
             </div>

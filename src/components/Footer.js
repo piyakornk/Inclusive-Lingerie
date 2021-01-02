@@ -5,11 +5,10 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <div className='footer-container'>
-      
-      <section class='social-media'>
 
         <div class='social-media-wrap'>
-          <div class='footer-logo'>
+          
+          <div>
             <Link to='/' className='ReturnPolicy'>
               Return Policy
             </Link>
@@ -63,7 +62,7 @@ function Footer() {
             </Link>
           </div>
         </div>
-      </section>
+  
     </div>
   );
 }

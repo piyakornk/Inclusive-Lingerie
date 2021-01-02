@@ -11,12 +11,9 @@
 }
 /* Social Icons */
 
-.social-media {
-  max-width: 1000px;
-  width: 100%;
-}
 
 .social-media-wrap {
+  background-color: aqua;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,30 +23,35 @@
 }
 
 .social-icons {
+  background: fuchsia;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 240px;
+  width: 100px;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .ReturnPolicy {
+  background: fuchsia;
   color: #fff;
   justify-self: start;
-  margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
   font-size: 14px;
-  display: flex;
-  align-items: center;
+  margin-top: 16px;
   margin-bottom: 16px;
 }
 
 .CustomerService {
+  background: fuchsia;
   color: #fff;
+  margin-top: 16px;
   margin-bottom: 16px;
 }
 
 .social-icon-link {
+  background: salmon;
   color: #fff;
   font-size: 16px;
 }
