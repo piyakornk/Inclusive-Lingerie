@@ -12,13 +12,14 @@
 .Product,
 .SizeTable {
   //display: flex;
-  //height: 90vh;
+  height: auto;
   //align-items: left;
   //justify-content: center;
   //font-size: 3rem;
   color: #550000; 
   background: #fcf3f5;
-  padding: 50px 100px;
+  padding: 50px 10%;
+  
 }
 
 .Home {
