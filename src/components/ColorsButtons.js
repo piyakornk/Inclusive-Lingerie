@@ -9,7 +9,7 @@ function ColorsButtons({product}) {
         var partsOfStr = color.split('-')
         console.log(partsOfStr[0])
         return(<div className="color_with_text">
-                    <button style={{background: "#" + partsOfStr[0]}} key={index} className="color"></button>
+                    <div style={{background: "#" + partsOfStr[0]}} key={index} className="color"></div>
                     <p>{partsOfStr[1]}</p>
                </div>)
         
