@@ -10,7 +10,7 @@
   font-size: 16px;
 
   &:focus {
-    box-shadow: 0 0 0 0.2em rgba(0, 109, 255, 0.4);
+    box-shadow: 0 0 0 10rem rgba(0, 109, 255, 0.4);
   }
 
   &:not([disabled]),

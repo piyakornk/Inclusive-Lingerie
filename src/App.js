@@ -23,7 +23,7 @@ function App(){
           <Route path="/AboutUs" exact component= {AboutUs} />
           <Route path="/SizeTable" exact component= {SizeTable} />
           <Route path={"/Catalogue/:type"} exact component= {Catalogue} />
-          <Route path={"/Product/:id"} exact component= {Product} />
+          <Route path={"/Product/:id"} exact component= {Product} />        
         </Switch>
         <Footer />
       </Router>
