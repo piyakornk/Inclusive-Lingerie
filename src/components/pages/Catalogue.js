@@ -31,13 +31,11 @@ function Catalogue(props) {
             <h1>look at them! :</h1>
             <h1>{limit}</h1>
             <div className='cards__container'>
-                <div className='cards__wrapper'>
-                    <ul className='cards__items'>
-                    {
-                        products
-                    }
-                    </ul>
-                </div>
+            <ul className='cards__items'>
+                {
+                    products
+                }
+                </ul>
             </div>
         </div>
     )
