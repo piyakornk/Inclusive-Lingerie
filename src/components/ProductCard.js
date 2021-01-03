@@ -18,6 +18,7 @@ function ProductCard({product}){
         <h1> {product.title}</h1>
         <h2>Price</h2>
         <ColorsButtons product={product}/>
+        <img src={process.env.PUBLIC_URL + product.otherImages[0].path}/>
         <RadioGroup {...radio} aria-label="colours">
             <label>
                 <Radio {...radio} value="neon pink as my nose" /> neon pink as my nose
@@ -50,7 +51,7 @@ function ProductCard({product}){
      
         <p>Available</p>
         <h3>Description</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lorem turpis, iaculis a lacus at, pellentesque facilisis arcu. Cras consequat, elit et semper laoreet, felis nunc scelerisque mauris, vitae bibendum nisl dui eget magna.</p>
+        <p>{product.description}</p>
     </>
 
     );
