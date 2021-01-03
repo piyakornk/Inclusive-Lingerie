@@ -9,7 +9,7 @@ function Product(props) {
     const products = DataJson.map(product =>{ if(product.id==selectedId){ return(<ProductCard product={product}/>)}})
     return (
         <div className='Product'>
-            <h1>Here is your product</h1>
+            <h1 className="align_center">Here is your product</h1>
             { products }
         </div>
     )

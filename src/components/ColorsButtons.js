@@ -16,7 +16,7 @@ function ColorsButtons({product}) {
     /*<div className='Product'>*/
     return (
         
-            <div className="all_colors">
+            <div className="all_colors, bottom__margin">
                 {
                 colors
                 }

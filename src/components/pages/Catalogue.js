@@ -28,8 +28,7 @@ function Catalogue(props) {
 
     return (
         <div className='Catalogue'>
-            <h1>look at them! :</h1>
-            <h1>{limit}</h1>
+            <h1 className="align_center">look at them! :</h1>
             <div className='cards__container'>
             <ul className='cards__items'>
                 {

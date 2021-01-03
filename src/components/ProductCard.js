@@ -42,17 +42,16 @@ function ProductCard({ product }) {
                 </div>
                 <div className="product__section">
                     <div className="product__information">
-                        <h1>{product.title}</h1>
-                        <h2>${product.price}</h2>
-                        <ColorsButtons product={product} />
-
-
+                        <h1 className="bottom__margin">{product.title}</h1>
+                        <ColorsButtons product={product}/>
+                        <h2 className="bottom__margin">${product.price}</h2>
+                        
                         <MenuButton {...menu} className="size_button">Size</MenuButton>
                         <Menu {...menu} aria-label="Size">
                             {sizes}
                         </Menu>
                         <p>Guide to Size</p>
-                        <p>Available</p>
+                        <p className="bottom__margin">Available</p>
                         <h3>Description</h3>
                         <p>{product.description}</p>
                     </div>
