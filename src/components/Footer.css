@@ -1,6 +1,7 @@
 .footer-container {
   background-color: #41003a;
-  padding: 0rem 0 0rem 0;
+  margin: 0 0;
+  padding: 0 0 0 0;
    {
     /* this is for the top-left-buttom-right padding for the footer */
   }
@@ -19,7 +20,7 @@
   align-items: center;
   width: 90%;
   max-width: 1000px;
-  margin: 20px auto 0 auto;
+  margin: 0 auto 0 auto;
 }
 
 .social-icons {
