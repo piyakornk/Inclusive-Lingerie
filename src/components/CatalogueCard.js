@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import ColorsButtons from './ColorsButtons'
 
 function CatalogueCard({product}) {
    return (
@@ -13,6 +14,7 @@ function CatalogueCard({product}) {
                     <h5 className="cards__item__text">
                         {product.title}
                     </h5>
+                    <ColorsButtons product={product}/>
                 </div>
             </Link>
         </li> 
