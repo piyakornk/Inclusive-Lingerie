@@ -1,4 +1,3 @@
-import react from 'react'
 import "../../App.css"
 import ButtonMaster from "../Button"
 import "../ProductCardComponents.css"
