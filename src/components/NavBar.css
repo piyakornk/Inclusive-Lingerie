@@ -15,16 +15,17 @@
   height: 70px;
   width: 90%;
   max-width: 1000px;
-  background: firebrick;
+  //background: firebrick;
   //padding: 0 200px;
 }
 
 .navbar-logo {
-  background-color: fuchsia;
+  //background-color: fuchsia;
   //margin-left: 0px;
   cursor: pointer;
   height: 30px;
   display: flex;
+  text-align: left;
   //position: absolute;
   //top: 0;
   //left: 0;
@@ -35,7 +36,7 @@
   display: grid;
   grid-template-columns: repeat(5, auto);
   background-color: aqua;
-  grid-column-gap: 10px;
+  //grid-column-gap: 10px;
   list-style: none;
   text-align: center;
   width: 100%;
