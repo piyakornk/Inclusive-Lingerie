@@ -15,33 +15,33 @@
   height: 70px;
   width: 90%;
   max-width: 1000px;
-  //background: firebrick;
-  //padding: 0 200px;
+  /*background: firebrick;
+  padding: 0 200px;*/
 }
 
 .navbar-logo {
-  //background-color: fuchsia;
-  //margin-left: 0px;
+  /*background-color: fuchsia;
+  margin-left: 0px;*/
   cursor: pointer;
   height: 30px;
   display: flex;
   text-align: left;
-  //position: absolute;
+  /*position: absolute;
   //top: 0;
   //left: 0;
-  //transform: translate(68%, 50%);
+  //transform: translate(68%, 50%);*/
 }
 
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(5, auto);
-  background-color: aqua;
-  //grid-column-gap: 10px;
+  /*background-color: aqua;
+  grid-column-gap: 10px;*/
   list-style: none;
   text-align: center;
   width: 100%;
   justify-content: end;
-  //margin-right: 30px;
+  /*margin-right: 30px;*/
 }
 
 .nav-item {
@@ -68,9 +68,7 @@
   color: #ffe1cc;
   font-size: 1.2rem;
   margin-left: 55px;
-   {
-    /*background-color: gold;*/
-  }
+  /*background-color: gold;*/
 }
 
 .nav-links-mobile {
