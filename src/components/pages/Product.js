@@ -11,7 +11,7 @@ function Product(props) {
     const products = DataJson.map(product => { if (product.id == selectedId) { return (<ProductCard product={product} />) } })
     var suggestedIds = DataJson.map(product => { if (product.id == selectedId) { return (product.similarProducts) } }).filter(function (el) { return el != null; })
     var suggestedIdCards = suggestedIds[0].map(element => <SuggestedProductCard id={element} />)
-    console.log(suggestedIds);
+    //console.log(suggestedIds);
     return (
         <div className='Product'>
             <h1 className="align_center">Here is your product</h1>
@@ -28,3 +28,5 @@ function Product(props) {
 }
 
 export default Product
+
+

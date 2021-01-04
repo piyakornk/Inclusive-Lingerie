@@ -34,6 +34,14 @@
     flex-flow: column;
 }
 
+.collection__description{
+    width: 50%;
+    min-width: 300px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
 .product__section__content{
     display: block;
     max-width: 100%;

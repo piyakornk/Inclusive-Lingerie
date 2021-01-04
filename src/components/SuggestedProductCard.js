@@ -6,8 +6,8 @@ function SuggestedProductCard({id}) {
 
     var elements = DataJson.map(product =>{ if(product.id==id){ return(product);}})
     var suggestedProduct = elements.filter(function (el) {return el != null;});
-    console.log(elements)
-    console.log(suggestedProduct)
+    //console.log(elements)
+    //console.log(suggestedProduct)
 
    return (
     <>

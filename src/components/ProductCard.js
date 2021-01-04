@@ -9,7 +9,7 @@ import ColorsButtons from "./ColorsButtons";
 function ProductCard({ product }) {
 
     const menu = useMenuState();
-    const radio = useRadioState({ state: "lime green as Luca" });
+   
 
     const sizes = product.sizes.map(size => (<MenuItem
         {...menu}
@@ -20,26 +20,12 @@ function ProductCard({ product }) {
     >{size}
     </MenuItem>))
 
-    /* No need anymore but not yet deleted
-    <RadioGroup {...radio} aria-label="colours">
-                        <label>
-                            <Radio {...radio} value="neon pink as my nose" /> neon pink as my nose
-                        </label>
-                        <label>
-                            <Radio {...radio} value="lime green as Luca" /> lime green as Luca
-                        </label>
-                        <label>
-                            <Radio {...radio} value="dark dark as my heart" /> dark dark as my heart
-                        </label>
-                    </RadioGroup>
-    */
-
     return (
         <>
             <div className="product__container">
                 <div className="product__section">
                     it will be the whole gallery of images
-                    <img className="product__section__content" src={process.env.PUBLIC_URL + product.otherImages[0].path} />
+                    <img className="product__section__content" src={process.env.PUBLIC_URL + product.otherImages[0].path} alt={process.env.PUBLIC_URL + product.otherImages[0].alternateText}/>
                 </div>
                 <div className="product__section">
                     <div className="product__information">
