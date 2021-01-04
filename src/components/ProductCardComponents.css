@@ -15,7 +15,7 @@
     /*background-color: salmon;*/
     width: 90%;
     max-width: 1000px;
-    margin: 30px auto 30px auto;
+    margin: auto;
 
     display: flex;
     flex-wrap: wrap;
@@ -33,11 +33,8 @@
 }
 
 .collection__description{
-    width: 50%;
-    min-width: 300px;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
+    margin: auto 2.5% auto 2.5%;
+    
 }
 
 .product__section__content{
@@ -69,6 +66,5 @@
     cursor: pointer;
     font-size: 16px;
     max-width: 30%;
-    
   }
   
