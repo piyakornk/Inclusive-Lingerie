@@ -1,7 +1,6 @@
 import React from "react";
 import "./ProductCardComponents.css";
 import { useMenuState, Menu, MenuItem, MenuButton } from "reakit/Menu";
-import { useRadioState, Radio, RadioGroup } from "reakit/Radio";
 import ColorsButtons from "./ColorsButtons";
 
 
