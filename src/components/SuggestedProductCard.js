@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import DataJson from '../products-data.json'
+import './ProductCardComponents.css'
 
 function SuggestedProductCard({id}) {
 
@@ -11,13 +12,13 @@ function SuggestedProductCard({id}) {
 
    return (
     <>
-        <li className="card__item">
-            <Link className="cards__item__link" to={'/Product/'+ id} >
-                <figure className="cards__item__pic-wrap">
-                    <img src={process.env.PUBLIC_URL + suggestedProduct[0].coverImage.path} alt={process.env.PUBLIC_URL + suggestedProduct[0].coverImage.alternateText} className="cards__item__img"/>
+        <li className="suggested__card__item">
+            <Link className="suggested__cards__item__link" to={'/Product/'+ id} >
+                <figure className="suggested__cards__item__pic-wrap">
+                    <img src={process.env.PUBLIC_URL + suggestedProduct[0].coverImage.path} alt={process.env.PUBLIC_URL + suggestedProduct[0].coverImage.alternateText} className="suggested__cards__item__img"/>
                 </figure>
-                <div className="cards__item__info">
-                    <h5 className="cards__item__text">
+                <div className="suggested__cards__item__info">
+                    <h5 className="suggested__cards__item__text">
                         {suggestedProduct[0].title}
                     </h5>
                 </div>

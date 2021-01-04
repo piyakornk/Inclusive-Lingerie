@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../App.css'
-import '../Catalogue.css'
+import '../ProductCardComponents.css'
 import ProductCard from '../ProductCard'
 import SuggestedProductCard from '../SuggestedProductCard'
 import DataJson from "../../products-data.json"
@@ -15,9 +15,9 @@ function Product(props) {
     return (
         <div className='Product'>
             <h1 className="align_center">Here is your product</h1>
-            { products}
-            <div className='cards__container'>
-                <ul className='cards__items'>
+            {products}
+            <div className='suggested__cards__container'>
+                <ul className='suggested__cards__items'>
                     {
                         suggestedIdCards
                     }

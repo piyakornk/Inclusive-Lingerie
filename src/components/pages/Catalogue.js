@@ -19,21 +19,21 @@ function Catalogue(props) {
 
     const limit = parseInt(props.match.params.type, 10)
 
-    const products = DataJson.map(product =>{ if((product.id < (limit + 100)) && (product.id > (limit -1))){ return(<CatalogueCard product={product}/>)}})
+    const products = DataJson.map(product => { if ((product.id < (limit + 100)) && (product.id > (limit - 1))) { return (<CatalogueCard product={product} />) } })
 
     //this wouuld be the instruction to show all elements (no if)
     //const products = DataJson.map(product => <CatalogueCard product={product} />)
-    
-    
+
+
 
     return (
         <div className='Catalogue'>
             <h1 className="align_center">look at them! :</h1>
             <div className='cards__container'>
-            <ul className='cards__items'>
-                {
-                    products
-                }
+                <ul className='cards__items'>
+                    {
+                        products
+                    }
                 </ul>
             </div>
         </div>

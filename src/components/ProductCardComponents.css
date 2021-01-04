@@ -12,7 +12,7 @@
 }
 
 .product__container{
-    /*background-color: salmon;*/
+    /*background-color: blue;*/
     width: 90%;
     max-width: 1000px;
     margin: auto;
@@ -30,11 +30,11 @@
     min-width: 300px;
     display: flex;
     flex-flow: column;
+    flex-grow: 1;
 }
 
 .collection__description{
     margin: auto 2.5% auto 2.5%;
-    
 }
 
 .product__section__content{
@@ -68,3 +68,107 @@
     max-width: 30%;
   }
   
+
+  /*------------------------------------------------------*/
+  .cards {
+    padding: 4rem;
+    background: #fff;
+  }
+  
+  
+  .align_center {
+    text-align: center;
+  }
+  
+  .suggested__cards__container {
+    /*background-color: salmon;*/
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto 30px auto;
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* flex-flow: column;
+    align-items: center;*/
+  }
+  
+  
+  .suggested__cards__items {
+   /* background-color: rgb(228, 159, 111);*/
+    width: auto;
+    max-width: 1000px;
+    list-style: none;
+    margin: 10px 0px 30px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .suggested__cards__item__link {
+   /* background-color: silver;*/
+    display: flex;
+    justify-content: left;
+    flex-flow: column;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    /*box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    //-webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    //filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    //border-radius: 10px;*/
+    overflow: hidden;
+    text-decoration: none;
+  }
+  
+  .suggested__cards__item__pic-wrap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /*padding-top: 90%;*/
+    /*overflow: hidden;*/
+  }
+  
+  .suggested__cards__item__img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    transition: all 0.2s linear;
+  }
+  
+  .suggested__cards__item__info {
+    /*padding: 20px 30px 30px;*/
+    text-align: center;
+  }
+  
+  .suggested__cards__item__text{
+    color: #550000;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .content__blog__container {
+      width: 84%;
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .cards__items {
+      display: flex;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .cards__item {
+      margin-bottom: 2rem;
+    }
+  }
