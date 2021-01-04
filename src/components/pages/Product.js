@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../App.css'
+import '../Catalogue.css'
 import ProductCard from '../ProductCard'
 import SuggestedProductCard from '../SuggestedProductCard'
 import DataJson from "../../products-data.json"

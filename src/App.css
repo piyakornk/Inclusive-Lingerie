@@ -11,11 +11,11 @@
 .Catalogue,
 .Product,
 .SizeTable {
-  //display: flex;
+  /*display: flex;
+    align-items: left;
+    justify-content: center;
+    font-size: 3rem;*/
   height: auto;
-  //align-items: left;
-  //justify-content: center;
-  //font-size: 3rem;
   color: #550000; 
   background: #fcf3f5;
   padding: 50px 0%;
