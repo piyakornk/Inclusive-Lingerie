@@ -2,9 +2,11 @@
   background-color: #41003a;
   margin: 0 0;
   padding: 0 0 0 0;
+  /*
    {
-    /* this is for the top-left-buttom-right padding for the footer */
+     this is for the top-left-buttom-right padding for the footer 
   }
+  */
   display: flex;
   flex-direction: column;
   justify-content: center;
