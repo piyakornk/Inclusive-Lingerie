@@ -2,11 +2,7 @@
   background-color: #41003a;
   margin: 0 0;
   padding: 0 0 0 0;
-  /*
-   {
-     this is for the top-left-buttom-right padding for the footer 
-  }
-  */
+    /* this is for the top-left-buttom-right padding for the footer */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,7 +12,7 @@
 
 
 .social-media-wrap {
-  background-color: aqua;
+  /*background-color: aqua;*/
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,62 +21,47 @@
   margin: 0 auto 0 auto;
 }
 
-.social-icons {
-  background: fuchsia;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100px;
-  margin-top: 16px;
-  margin-bottom: 16px;
-}
-
 .ReturnPolicy {
-  background: fuchsia;
-  color: #fff;
+  /*background: fuchsia;*/
+  color: #ffe1cc;
   justify-self: start;
   cursor: pointer;
   text-decoration: none;
   font-size: 14px;
-  margin-top: 16px;
   margin-bottom: 16px;
 }
 
 .CustomerService {
-  background: fuchsia;
-  color: #fff;
+  /*background: fuchsia;*/
+  color: #ffe1cc;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.social-icons {
+  /*background: fuchsia;*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*width: 100px;*/
   margin-top: 16px;
   margin-bottom: 16px;
 }
 
 .social-icon-link {
-  background: salmon;
-  color: #fff;
+  /*background: salmon;*/
+  color: #ffe1cc;
   font-size: 16px;
   /*width: 33px;*/
   /*height: 33px;*/
-  /*padding: 8px 8px;*/
+  margin-left: 5px;
+  padding: 8px 8px;
 }
 
-@media screen and (max-width: 820px) {
-  .footer-links {
-    padding-top: 1rem;
-  }
-
-  .footer-input {
-    width: 100%;
-  }
-
-  .btn {
-    width: 100%;
-  }
-
-  .footer-link-wrapper {
-    flex-direction: column;
-  }
-
+@media screen and (max-width: 800px) {
   .social-media-wrap {
     flex-direction: column;
+    margin-top: 1.5rem;
   }
 }
 
