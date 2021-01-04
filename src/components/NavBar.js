@@ -1,5 +1,4 @@
 import React, {useState} from "react";
-import {Button} from "reakit";
 import {Link} from "react-router-dom";
 import LoveMeLogo from "./LoveMeLogo.svg";
 import './NavBar.css';
@@ -7,7 +6,7 @@ import './NavBar.css';
  
 function NavBar() {
     const [click, setClick] = useState(false);
-    const [button, setButton] = useState(true);
+    const [setButton] = useState(true);
     
     const handleClick=()=> setClick(!click);
     const closeMobileMenu = () => setClick(false);
