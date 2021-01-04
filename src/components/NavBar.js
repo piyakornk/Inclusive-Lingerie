@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+//import {Button} from "reakit";
 import {Link} from "react-router-dom";
 import LoveMeLogo from "./LoveMeLogo.svg";
 import './NavBar.css';
@@ -6,20 +7,12 @@ import './NavBar.css';
  
 function NavBar() {
     const [click, setClick] = useState(false);
-    const [setButton] = useState(true);
+ 
     
     const handleClick=()=> setClick(!click);
     const closeMobileMenu = () => setClick(false);
      
-    const showButton = () => {
-        if(window.innerWidth <= 200) {
-            setButton(false);
-        } else {
-            setButton(true);
-        }
-    }
-    window.addEventListener('resize', showButton);
-
+    
     return (
       <>
         <nav className="navbar">
