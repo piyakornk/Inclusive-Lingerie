@@ -1,12 +1,15 @@
 import React from 'react'
-import { Button } from "reakit/Button"
+import {Link} from "react-router-dom";
+//import { Button } from "reakit/Button"
 import './Button.css'
 
 function ButtonMaster() {
     return (
         <>
-           <Button className='btn'> Shop Now </Button>
-        </>    
+            <Link to={"/SizeTable"} className='btn' >
+                See all sizes
+            </Link>
+        </>
     )
 }
 
