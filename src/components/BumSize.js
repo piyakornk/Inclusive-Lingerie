@@ -11,8 +11,8 @@ import {
     const grid = useGridState();
     return(
     <>
-    <Grid {...grid} aria-label="Pants Size Table">
-        <GridRow {...grid}>
+    <Grid {...grid} className='table' aria-label="Pants Size Table">
+        <GridRow {...grid} className='size_row_first_row'>
             <GridCell {...grid}>Sizes</GridCell>
             <GridCell {...grid}>XXS</GridCell>
             <GridCell {...grid}>XS</GridCell>
@@ -24,7 +24,7 @@ import {
             <GridCell {...grid}>3XL</GridCell>
             <GridCell {...grid}>4XL</GridCell>
         </GridRow>
-        <GridRow {...grid}>
+        <GridRow {...grid}className='size_row'>
             <GridCell {...grid}>US</GridCell>
             <GridCell {...grid}>O</GridCell>
             <GridCell {...grid}>2</GridCell>
@@ -37,7 +37,7 @@ import {
             <GridCell {...grid}>16</GridCell>
 
         </GridRow>
-        <GridRow {...grid}>
+        <GridRow {...grid}className='size_row'>
             <GridCell {...grid}>UK</GridCell>
             <GridCell {...grid}>6</GridCell>
             <GridCell {...grid}>8</GridCell>
@@ -49,7 +49,7 @@ import {
             <GridCell {...grid}>20</GridCell>
             <GridCell {...grid}>22</GridCell>
         </GridRow>
-        <GridRow {...grid}>
+        <GridRow {...grid}className='size_row'>
             <GridCell {...grid}>Italy</GridCell>
             <GridCell {...grid}>38</GridCell>
             <GridCell {...grid}>40</GridCell>
@@ -61,7 +61,7 @@ import {
             <GridCell {...grid}>52</GridCell>
             <GridCell {...grid}>54</GridCell>
         </GridRow>
-        <GridRow {...grid}>
+        <GridRow {...grid}className='size_row'>
             <GridCell {...grid}>France</GridCell>
             <GridCell {...grid}>34</GridCell>
             <GridCell {...grid}>36</GridCell>

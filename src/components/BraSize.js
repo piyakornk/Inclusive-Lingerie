@@ -26,7 +26,7 @@ import './Table.css'
             <GridCell {...grid}>4XL</GridCell>
         </GridRow>
         <GridRow {...grid} className='size_row'>
-            <GridCell {...grid} className='country'>US</GridCell>
+            <GridCell {...grid} >US</GridCell>
             <GridCell {...grid}>O</GridCell>
             <GridCell {...grid}>2</GridCell>
             <GridCell {...grid}>4</GridCell>
