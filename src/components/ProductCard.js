@@ -38,6 +38,7 @@ function ProductCard({ product }) {
         <>
             <div className="product__container">
                 <div className="product__section">
+                    it will be the whole gallery of images
                     <img className="product__section__content" src={process.env.PUBLIC_URL + product.otherImages[0].path} />
                 </div>
                 <div className="product__section">
