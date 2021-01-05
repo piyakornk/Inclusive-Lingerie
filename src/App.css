@@ -19,7 +19,6 @@
   color: #550000; 
   background: #fcf3f5;
   padding: 50px 0%;
-  
 }
 
 .Home {
@@ -41,4 +40,17 @@
 
 .SizeTable{
   
+}
+.Content{
+    /*background-color: blue;*/
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    vertical-align: top;   
+    justify-content: center;
+    
 }
