@@ -2,27 +2,44 @@ import React from "react";
 import "./ProductCardComponents.css";
 import { useMenuState, Menu, MenuItem, MenuButton } from "reakit/Menu";
 import ColorsButtons from "./ColorsButtons";
-import ImageGalleryProduct from "./ImageGalleryProduct";
+import ImageGalleryProduct from './ImageGalleryProduct'
 import {useDisclosureState,Disclosure,DisclosureContent,} from "reakit/Disclosure";
 import {Link} from "react-router-dom";
 
+
+
+/*const size = React.forwardRef((props, ref))=>{
+    const
+    return (
+        <>
+        if product.size == product
+        {product.Availability}
+        </>
+    )
+}*/
 function ProductCard({ product }) {
 
-    const menu = useMenuState();
-    const disclosure = useDisclosureState();
-
-    const sizes = product.sizes.map((size, index) => (<MenuItem
+    const menu = useMenuState({loop:true});
+      
+    const sizes = product.sizes.map(size => (<MenuItem
         {...menu}
         className = "dropdown"
-        key={index}
         onClick={() => {
             menu.hide();
             console.log("clicked on button");
+            /*Availability (chosen.size)*/
+           
+                        {/* instead of {disclosure.visible && <DisclosureContent {...disclosure}>Content</DisclosureContent>} */}
+                        <DisclosureContent {...disclosure}>
+                            {(props) => disclosure.visible && <div {...props}>Available in shops</div>}
+                        </DisclosureContent>
         }}
     >{size}
+
     </MenuItem>))
 
-        //<img className="product__section__content" src={process.env.PUBLIC_URL + product.otherImages[0].path} alt={process.env.PUBLIC_URL + product.otherImages[0].alternateText}/>
+    const disclosure = useDisclosureState();
+
 
     return (
         <>
@@ -36,6 +53,8 @@ function ProductCard({ product }) {
                         <ColorsButtons product={product}/>
                         <h2 className="bottom__margin">€ {product.price}.00</h2>
                         
+                      
+
                         <MenuButton {...menu} className="size_button">Sizes</MenuButton>
                         <Menu {...menu} aria-label="Size">
                             {sizes}
@@ -45,6 +64,15 @@ function ProductCard({ product }) {
                         <Link to={"/SizeTable"} className='link'>
                             Guide to size
                         </Link>
+
+                        <br/>
+
+                        <Disclosure {...disclosure}>{product.sizes}</Disclosure>
+                        {/* instead of {disclosure.visible && <DisclosureContent {...disclosure}>Content</DisclosureContent>} */}
+                                <DisclosureContent {...disclosure}>
+                                    {(props) => disclosure.visible && <div {...props}>Available in shops</div>}
+                                </DisclosureContent>
+
                         <br/>
                         <br/>
                         <h3>Description</h3>
