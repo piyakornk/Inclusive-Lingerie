@@ -2,6 +2,7 @@ import React from "react";
 import "./ProductCardComponents.css";
 import { useMenuState, Menu, MenuItem, MenuButton } from "reakit/Menu";
 import ColorsButtons from "./ColorsButtons";
+import ImageGalleryProduct from './ImageGalleryProduct';
 import {useDisclosureState,Disclosure,DisclosureContent,} from "reakit/Disclosure";
 import {Link} from "react-router-dom";
 
@@ -20,13 +21,16 @@ function ProductCard({ product }) {
     >{size}
     </MenuItem>))
 
+        // <img className="product__section__content" src={process.env.PUBLIC_URL + product.otherImages[0].path} alt={process.env.PUBLIC_URL + product.otherImages[0].alternateText}/>
+                
+
     return (
         <>
             <div className="product__container">
                 <div className="product__section">
                     it will be the whole gallery of images
-                    <img className="product__section__content" src={process.env.PUBLIC_URL + product.otherImages[0].path} alt={process.env.PUBLIC_URL + product.otherImages[0].alternateText}/>
-                </div>
+                   <ImageGalleryProduct product={product}/>
+                   </div>
                 <div className="product__section">
                     <div className="product__information">
                         <h1 className="bottom__margin">{product.title}</h1>
