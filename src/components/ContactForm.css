@@ -1,0 +1,27 @@
+.TalkToUs{
+    padding-left: 30px;
+    width: 100%;
+    /*background-color: red;*/
+}
+    
+
+.FormLabel{
+    /*background-color: turquoise;*/
+    height: 30px;
+    width: 40%;
+}
+.form{
+    /*background-color: whitesmoke;*/
+    font-size: 16px;
+    color:#550000;
+    border-radius: 15px;
+    length: auto;
+    margin: 5px 30px;
+    padding: 5px;
+    border-color: #fff;
+    
+}
+.promptmessage{
+    padding-left: 30px;
+    padding-top: 10px;
+}

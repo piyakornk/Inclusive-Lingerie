@@ -30,7 +30,10 @@
   font-size: 14px;
   margin-bottom: 16px;
 }
-
+.ReturnPolicy:hover{
+  text-decoration: underline;
+  color: #ffe1cc;
+}
 .CustomerService {
   /*background: fuchsia;*/
   color: #ffe1cc;
