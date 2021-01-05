@@ -18,6 +18,7 @@ function AboutUs() {
                 <h2 className="bottom__margin">Our Belief</h2>
                 <p className="bottom__margin">
                     Beauty is not defined by size, color, height or anything else. Beauty is not how you look compared with some unreachable standard. Beauty is how you see yourself, how comfortable you are with your body and most of all, how much you love yourself.
+            
                     Every person on Earth should have the opportunity to feel beautiful and validated. It is for this reason that we created the LoveMe lingerie line with sizes that span from XXS to 4XL in order to accommodate as many women’s needs as possible. We try our best to have a fit for all people, because everybody has the right to feel powerful and desirable and love their body.
                 </p>
             </div>

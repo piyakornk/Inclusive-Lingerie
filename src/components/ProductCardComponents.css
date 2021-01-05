@@ -20,7 +20,7 @@
     display: flex;
     flex-wrap: wrap;
     vertical-align: top;   
-    justify-content: center;
+    justify-content: left;
 
 }
 

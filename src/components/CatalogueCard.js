@@ -14,6 +14,8 @@ function CatalogueCard({product}) {
                     <h5 className="cards__item__text">
                         {product.title}
                     </h5>
+                    <p className="cards__item__text">XXS - 4XL</p>
+                    <p className="cards__item__text">€ {product.price}.00</p>
                     <ColorsButtons product={product}/>
                 </div>
             </Link>
