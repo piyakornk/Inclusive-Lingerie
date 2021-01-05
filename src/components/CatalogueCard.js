@@ -11,12 +11,12 @@ function CatalogueCard({product}) {
                     <img src={process.env.PUBLIC_URL + product.coverImage.path} alt={process.env.PUBLIC_URL + product.coverImage.alternateText} className="cards__item__img"/>
                 </figure>
                 <div className="cards__item__info">
-                    <h5 className="cards__item__text">
+                    <h5 className="cards__item__title">
                         {product.title}
                     </h5>
                     <p className="cards__item__text">XXS - 4XL</p>
                     <p className="cards__item__text">€ {product.price}.00</p>
-                    <ColorsButtons product={product}/>
+                    <ColorsButtons className = 'card__item__colour' product={product}/>
                 </div>
             </Link>
         </li> 
