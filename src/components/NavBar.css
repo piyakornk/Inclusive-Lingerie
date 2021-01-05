@@ -20,12 +20,14 @@
 }
 
 .navbar-logo {
-  /*background-color: fuchsia;
-  margin-left: 0px;*/
+  /*background-color: fuchsia;*/
+  margin-left: 0px;
   cursor: pointer;
-  height: 30px;
+  
   display: flex;
-  text-align: left;
+  justify-content: flex-start;
+  height:40px;
+  
   /*position: absolute;
   //top: 0;
   //left: 0;

@@ -19,7 +19,9 @@ function NavBar() {
             
             <div className="navbar-container">
             <Link to="/" className = "navbar-logo">
-                <img src={LoveMeLogo} alt="The logo of Love Me"/>
+                
+                    <img src={LoveMeLogo} alt="The logo of Love Me"/>
+               
             </Link>
             
             <div className = "menu-icon" onClick={handleClick}>
