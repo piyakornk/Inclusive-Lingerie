@@ -15,7 +15,7 @@ function NavBar() {
     
     return (
       <>
-        <nav className="navbar">
+        <nav className="navbar" role="Navigation Bar" aria-labelledby="Navigation Bar">
             
             <div className="navbar-container">
             <Link to="/" className = "navbar-logo">

@@ -12,7 +12,7 @@ function ImageGalleryProduct({ product }) {
                 <div className="gallery__imgContainer">
                     {product.otherImages.map((element, index) =>
                     (<img
-                        style={{ border: selectedImg === element.path ? "4px solid black" : "" }}
+                        style={{ border: selectedImg === element.path ? "2px solid black" : "" }}
                         key={index}
                         className=""
                         src={process.env.PUBLIC_URL + element.path} 
