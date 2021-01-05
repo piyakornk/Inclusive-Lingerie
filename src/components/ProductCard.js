@@ -2,15 +2,17 @@ import React from "react";
 import "./ProductCardComponents.css";
 import { useMenuState, Menu, MenuItem, MenuButton } from "reakit/Menu";
 import ColorsButtons from "./ColorsButtons";
-
+import {useDisclosureState,Disclosure,DisclosureContent,} from "reakit/Disclosure";
+import {Link} from "react-router-dom";
 
 function ProductCard({ product }) {
 
     const menu = useMenuState();
-   
+    const disclosure = useDisclosureState();
 
     const sizes = product.sizes.map(size => (<MenuItem
         {...menu}
+        className = "dropdown"
         onClick={() => {
             menu.hide();
             console.log("clicked on button");
@@ -29,14 +31,19 @@ function ProductCard({ product }) {
                     <div className="product__information">
                         <h1 className="bottom__margin">{product.title}</h1>
                         <ColorsButtons product={product}/>
-                        <h2 className="bottom__margin">${product.price}</h2>
+                        <h2 className="bottom__margin">€ {product.price}.00</h2>
                         
-                        <MenuButton {...menu} className="size_button">Size</MenuButton>
+                        <MenuButton {...menu} className="size_button">Sizes</MenuButton>
                         <Menu {...menu} aria-label="Size">
                             {sizes}
                         </Menu>
-                        <p>Guide to Size</p>
-                        <p className="bottom__margin">Available</p>
+                        
+                        <br/>
+                        <Link to={"/SizeTable"} className='link'>
+                            Guide to size
+                        </Link>
+                        <br/>
+                        <br/>
                         <h3>Description</h3>
                         <p>{product.description}</p>
                     </div>
