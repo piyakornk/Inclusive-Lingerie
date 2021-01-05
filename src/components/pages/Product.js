@@ -14,9 +14,12 @@ function Product(props) {
     //console.log(suggestedIds);
     return (
         <div className='Product'>
-            <div className='content'>
-                <h1 className="align_center">Here is your product</h1>
+            <div className='Content'>
+
                 {products}
+                <br/>
+                <br/>
+                <br/>
                 <h2>Suggested items:</h2>
                 <div className='suggested__cards__container'>
                     <ul className='suggested__cards__items'>

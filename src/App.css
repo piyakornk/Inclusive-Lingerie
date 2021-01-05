@@ -39,7 +39,7 @@
 .SizeTable {
 }
 .Content {
-  background-color: blue;
+  /*background-color: rgb(199, 199, 243);*/
   width: 90%;
   max-width: 1000px;
   margin: auto;
