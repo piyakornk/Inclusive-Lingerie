@@ -11,9 +11,10 @@ function ProductCard({ product }) {
     const menu = useMenuState();
     const disclosure = useDisclosureState();
 
-    const sizes = product.sizes.map(size => (<MenuItem
+    const sizes = product.sizes.map((size, index) => (<MenuItem
         {...menu}
         className = "dropdown"
+        key={index}
         onClick={() => {
             menu.hide();
             console.log("clicked on button");
