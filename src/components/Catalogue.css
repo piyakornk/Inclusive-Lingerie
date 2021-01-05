@@ -43,7 +43,7 @@
 }
 
 .cards__item__link {
-  background-color: silver;
+  /*background-color: silver;*/
   display: flex;
   justify-content: left;
   flex-flow: column;
@@ -82,8 +82,9 @@
 }
 
 .cards__item__info {
-  padding: 0px 30px 0px;
-  background-color: whitesmoke;
+  margin-top: 5px;
+  padding: 0px 5px 0px;
+  /*background-color: whitesmoke;*/
   display:grid;
   grid-template-columns: 3fr 2fr;
   justify-content: center;
