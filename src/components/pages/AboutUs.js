@@ -1,11 +1,17 @@
 import React from 'react'
 import '../../App.css'
+import '../Breadcrumbs.css'
 import ContactForm from '../ContactForm';
 import "../ProductCardComponents.css"
+import {Link} from 'react-router-dom'
 
 function AboutUs() {
     return (
         <div className='AboutUs'>
+            <ul className="breadcrumb">
+                <li><Link></Link></li>
+                <li>About Us</li>
+            </ul>
             <div className="product__container" >
                 <h1 className="bottom__margin">About Us</h1>
             </div>
