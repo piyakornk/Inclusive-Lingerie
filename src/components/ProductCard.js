@@ -6,17 +6,6 @@ import ImageGalleryProduct from './ImageGalleryProduct'
 import { useDisclosureState, Disclosure, DisclosureContent, } from "reakit/Disclosure";
 import { Link } from "react-router-dom";
 
-
-
-/*const size = React.forwardRef((props, ref))=>{
-    const
-    return (
-        <>
-        if product.size == product
-        {product.Availability}
-        </>
-    )
-}*/
 function ProductCard({ product }) {
 
     const menu = useMenuState({ loop: true });
@@ -27,15 +16,9 @@ function ProductCard({ product }) {
         onClick={() => {
             menu.hide();
             console.log("clicked on button");
-            /*Availability (chosen.size)*/
-
             {/* instead of {disclosure.visible && <DisclosureContent {...disclosure}>Content</DisclosureContent>} */ }
-            <DisclosureContent {...disclosure}>
-                {(props) => disclosure.visible && <div {...props}>Available in shops</div>}
-            </DisclosureContent>
         }}
     >{size}
-
     </MenuItem>))
 
     const disclosure = useDisclosureState();
@@ -56,25 +39,30 @@ function ProductCard({ product }) {
                         <ColorsButtons product={product} />
                         <h2 className="bottom__margin">€ {product.price}.00</h2>
 
+                        <div className="sizes_button">
+                            <p> click on size buttons to check availability</p>
+                            <br/>
+                            <Disclosure {...disclosure} className='btn_size'>XXS</Disclosure>
+                            <Disclosure {...disclosure} className='btn_size'>XS</Disclosure>
+                            <Disclosure {...disclosure} className='btn_size'>S</Disclosure>
+                            <Disclosure {...disclosure} className='btn_size'>M</Disclosure>
+                            <Disclosure {...disclosure} className='btn_size'>L</Disclosure>
+                            <Disclosure {...disclosure} className='btn_size'>XL</Disclosure>
+                            <Disclosure {...disclosure} className='btn_size'>XXL</Disclosure>
+                            <Disclosure {...disclosure} className='btn_size'>3XL</Disclosure>
+                            <Disclosure {...disclosure} className='btn_size'>4XL</Disclosure>
+                            {/* instead of {disclosure.visible && <DisclosureContent {...disclosure}>Content</DisclosureContent>} */}
+                            <DisclosureContent {...disclosure}>
+                                {(props) => disclosure.visible && <div {...props}>Available in shops</div>}
+                            </DisclosureContent>
 
+                            
 
-                        <MenuButton {...menu} className="size_button">Sizes</MenuButton>
-                        <Menu {...menu} aria-label="Size">
-                            {sizes}
-                        </Menu>
-
+                        </div>
                         <br />
                         <Link to={"/SizeTable"} className='link'>
                             Guide to size
                         </Link>
-
-                        <br />
-
-                        <Disclosure {...disclosure}>{product.sizes}</Disclosure>
-                        {/* instead of {disclosure.visible && <DisclosureContent {...disclosure}>Content</DisclosureContent>} */}
-                        <DisclosureContent {...disclosure}>
-                            {(props) => disclosure.visible && <div {...props}>Available in shops</div>}
-                        </DisclosureContent>
 
                         <br />
                         <br />
