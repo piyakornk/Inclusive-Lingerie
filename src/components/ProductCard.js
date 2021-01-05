@@ -38,6 +38,10 @@ function ProductCard({ product }) {
                         <h1 className="bottom__margin">{product.title}</h1>
                         <ColorsButtons product={product} />
                         <h2 className="bottom__margin">€ {product.price}.00</h2>
+                        <h3>Avaliable sizes in shops</h3>
+                        <p>XXS / XS / S / M / L / XL / XXL / 3XL / 4XL</p>
+
+                        {/*<p>{product.availabilityOnSize}</p>
 
                         <div className="sizes_button">
                             <p> click on size buttons to check availability</p>
@@ -51,14 +55,10 @@ function ProductCard({ product }) {
                             <Disclosure {...disclosure} className='btn_size'>XXL</Disclosure>
                             <Disclosure {...disclosure} className='btn_size'>3XL</Disclosure>
                             <Disclosure {...disclosure} className='btn_size'>4XL</Disclosure>
-                            {/* instead of {disclosure.visible && <DisclosureContent {...disclosure}>Content</DisclosureContent>} */}
                             <DisclosureContent {...disclosure}>
                                 {(props) => disclosure.visible && <div {...props}>Available in shops</div>}
                             </DisclosureContent>
-
-                            
-
-                        </div>
+                        </div>*/}
                         <br />
                         <Link to={"/SizeTable"} className='link'>
                             Guide to size
