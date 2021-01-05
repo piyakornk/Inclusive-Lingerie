@@ -2,14 +2,16 @@
   outline: 0;
   color: #ffe1cc;
   background: #41003a;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 2rem 0.5rem 2rem;
   line-height: 2;
   border: transparent;
   border-radius: 2rem;
   cursor: pointer;
   font-size: 16px;
   text-decoration: none;
-  max-width: 30%;
+  max-width: 60%;
+  width: auto;
+  
   /*
   &:focus {
     box-shadow: 0 0 0 10rem rgba(0, 109, 255, 0.4);
@@ -31,6 +33,7 @@
 }
 
 .btn:hover{
-  text-decoration: underline;
-  color: #ffe1cc;
+  /*text-decoration: underline;*/
+  background-color: #290025;
+  color: #ffede1;
 }
