@@ -58,6 +58,14 @@
   text-decoration: none;
 }
 
+.cards__item__link:focus{
+  text-decoration: underline;
+}
+
+.cards__item__link:hover{
+  text-decoration: underline;
+}
+
 .cards__item__pic-wrap {
   position: relative;
   width: 100%;
