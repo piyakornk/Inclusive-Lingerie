@@ -24,11 +24,11 @@ function Catalogue(props) {
     //this wouuld be the instruction to show all elements (no if)
     //const products = DataJson.map(product => <CatalogueCard product={product} />)
     var category = ""
-    if(limit==100){
+    if(limit===100){
         category = "Bra"
-    }else if(limit==200){
+    }else if(limit===200){
         category = "Panties"
-    }else if(limit==300){
+    }else if(limit===300){
         category = "Sets"
     }else{
         category="Error"
