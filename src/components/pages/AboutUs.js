@@ -7,7 +7,7 @@ import {Link} from 'react-router-dom'
 
 function AboutUs() {
     return (
-        <div className='AboutUs'>
+        <main id="content" role="main" className='AboutUs'>
             <ul className="breadcrumb">
                 <li><Link></Link></li>
                 <li>About Us</li>
@@ -40,7 +40,7 @@ function AboutUs() {
                 <ContactForm />
             </div>
 
-        </div>
+        </main>
     )
 }
 

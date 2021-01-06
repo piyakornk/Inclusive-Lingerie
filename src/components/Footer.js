@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <div className='footer-container'>
+    <footer role="contentinfo" aria-labelledby="footer" className='footer-container'>
 
         <div className='social-media-wrap'>
           
@@ -24,6 +24,7 @@ function Footer() {
               className='social-icon-link facebook'
               to='/'
               target='_blank'
+              alt= 'Facebook'
               aria-label='Facebook'
             >
               <i className='fab fa-facebook-f' />
@@ -32,6 +33,7 @@ function Footer() {
               className='social-icon-link instagram'
               to='/'
               target='_blank'
+              alt='Instagram'
               aria-label='Instagram'
             >
               <i className='fab fa-instagram' />
@@ -40,6 +42,7 @@ function Footer() {
               className='social-icon-link youtube'
               to='/'
               target='_blank'
+              alt='Youtube'
               aria-label='Youtube'
             >
               <i className='fab fa-youtube' />
@@ -48,6 +51,7 @@ function Footer() {
               className='social-icon-link twitter'
               to='/'
               target='_blank'
+              alt='Twitter'
               aria-label='Twitter'
             >
               <i className='fab fa-twitter' />
@@ -56,6 +60,7 @@ function Footer() {
               className='social-icon-link twitter'
               to='/'
               target='_blank'
+              alt='LinkedIn'
               aria-label='LinkedIn'
             >
               <i className='fab fa-linkedin' />
@@ -63,7 +68,7 @@ function Footer() {
           </div>
         </div>
   
-    </div>
+    </footer>
   );
 }
 

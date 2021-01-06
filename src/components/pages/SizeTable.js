@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom'
 
 function SizeTable() {
     return (
-        <div className='SizeTable'>
+        <main id="content" role="main" className='SizeTable'>
             <div className='Content'>
             <ul className="breadcrumb">
                 <li><Link to=""></Link></li>
@@ -14,12 +14,12 @@ function SizeTable() {
             </ul>
                 <h1>Guide to all sizes</h1>
                 <h2>Bras Size</h2>
-                <BraSize/>
+                <BraSize role="grid" />
                 <h2>Pants Size</h2>
-                <BumSize/>
+                <BumSize role="grid"/>
 
             </div>
-        </div>
+        </main>
     )
 }
 

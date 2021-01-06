@@ -15,7 +15,7 @@ function NavBar() {
     
     return (
       <>
-        <nav className="navbar" role="Navigation Bar" aria-labelledby="Navigation Bar">
+        <header className="navbar" id="header" role="banner">
             
             <div className="navbar-container">
             <Link to="/" className = "navbar-logo">
@@ -70,7 +70,7 @@ function NavBar() {
             </div>
             
             
-        </nav>
+        </header>
 
         </>
   );    

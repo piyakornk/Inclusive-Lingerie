@@ -35,7 +35,7 @@ function Catalogue(props) {
     }
 
     return (
-        <div className='Catalogue'>
+        <main id="content" role="main" className='Catalogue'>
             <div className='Content'>
             <ul className="breadcrumb">
                 <li><Link></Link></li>
@@ -51,7 +51,7 @@ function Catalogue(props) {
                     }
                 </ul>
             </div>
-        </div>
+        </main>
     )
 }
 

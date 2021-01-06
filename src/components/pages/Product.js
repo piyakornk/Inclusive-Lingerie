@@ -30,7 +30,7 @@ function Product(props) {
     }
 
     return (
-        <div className='Product'>
+        <main id="content" role="main" className='Product'>
             <div className='Content'>
             <ul className="breadcrumb">
                 <li><Link to=""></Link></li>
@@ -51,7 +51,7 @@ function Product(props) {
                     </ul>
                 </div>
             </div>
-        </div>
+        </main>
     )
 }
 
