@@ -22,50 +22,53 @@ function NavBar() {
 
                     </Link>
 
-                    <nav className="menu-icon" onClick={handleClick}>
-                        <i className={click ? "fas fa-times" : "fas fa-bars"}> </i>
-                    </nav>
+                    <a aria-label="Menu" className="menu-icon"  onClick={handleClick}>
+                        <i className={click ? "fas fa-times": "fas fa-bars" }  title="Menu"  > </i>
+                        <span class="sr-only">Menu</span>
+                    </a>
 
-                    <nav aria-label="Bras, Panties, Sets, About us and Size Table">
-                        <ul className={click ? 'nav-menu active' : 'nav-menu'} >
-                            <li className='nav-item'>
-                                <Link to={"/Catalogue/100"} className='nav-links' onClick={closeMobileMenu}>
-                                    Bras
+                    
+
+
+                    <ul aria-label="Bras, Panties, Sets, About us and Size Table" className={click ? 'nav-menu active' : 'nav-menu'} >
+                        <li className='nav-item'>
+                            <Link to={"/Catalogue/100"} className='nav-links' onClick={closeMobileMenu}>
+                                Bras
                                 </Link>
-                            </li>
-                            <li className='nav-item'>
-                                <Link to={"/Catalogue/200"} className='nav-links' onClick={closeMobileMenu}>
-                                    Panties
+                        </li>
+                        <li className='nav-item'>
+                            <Link to={"/Catalogue/200"} className='nav-links' onClick={closeMobileMenu}>
+                                Panties
                                  </Link>
-                            </li>
-                            <li className='nav-item'>
-                                <Link to={"/Catalogue/300"} className='nav-links' onClick={closeMobileMenu}>
-                                    Sets
+                        </li>
+                        <li className='nav-item'>
+                            <Link to={"/Catalogue/300"} className='nav-links' onClick={closeMobileMenu}>
+                                Sets
                                  </Link>
-                            </li>
+                        </li>
 
 
-                            <li className='nav-item'>
-                                <Link
-                                    to='/AboutUs'
-                                    className='nav-links'
-                                    onClick={closeMobileMenu}
-                                >
-                                    About Us
+                        <li className='nav-item'>
+                            <Link
+                                to='/AboutUs'
+                                className='nav-links'
+                                onClick={closeMobileMenu}
+                            >
+                                About Us
                                 </Link>
-                            </li>
-                            <li className='nav-item'>
-                                <Link
-                                    to='/SizeTable'
-                                    className='nav-links'
-                                    onClick={closeMobileMenu}
-                                >
-                                    Size Table
+                        </li>
+                        <li className='nav-item'>
+                            <Link
+                                to='/SizeTable'
+                                className='nav-links'
+                                onClick={closeMobileMenu}
+                            >
+                                Size Table
                                 </Link>
-                            </li>
+                        </li>
 
-                        </ul>
-                    </nav>
+                    </ul>
+
                 </div>
             </header>
         </>
