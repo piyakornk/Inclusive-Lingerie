@@ -62,8 +62,9 @@ function Footer() {
               target='_blank'
               alt='LinkedIn'
               aria-label='LinkedIn'
+              title='LinkedIn'
             >
-              <i className='fab fa-linkedin' title='LinkedIn'/>
+              <i className='fab fa-linkedin' />
             </Link>
           </div>
         </div>

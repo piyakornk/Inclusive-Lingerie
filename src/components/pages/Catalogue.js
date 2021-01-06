@@ -25,7 +25,7 @@ function Catalogue(props) {
     //const products = DataJson.map(product => <CatalogueCard product={product} />)
     var category = ""
     if (limit === 100) {
-        category = "Bra"
+        category = "Bras"
     } else if (limit === 200) {
         category = "Panties"
     } else if (limit === 300) {
@@ -41,7 +41,7 @@ function Catalogue(props) {
                     <li><Link to="/">Home</Link></li>
                     <li>{category}</li>
                 </ul>
-                <h1>Catalogue</h1>
+                <h1>{category}</h1>
             </div>
 
             <div className='cards__container'>

@@ -34,6 +34,12 @@
   text-decoration: underline;
   color: #ffe1cc;
 }
+
+.ReturnPolicy:focus{
+  text-decoration: underline;
+  color: #ffe1cc;
+}
+
 .CustomerService {
   /*background: fuchsia;*/
   color: #ffe1cc;
@@ -51,6 +57,7 @@
   margin-bottom: 16px;
 }
 
+
 .social-icon-link {
   /*background: salmon;*/
   color: #ffe1cc;
@@ -59,6 +66,17 @@
   /*height: 33px;*/
   margin-left: 5px;
   padding: 8px 8px;
+}
+
+.social-icon-link:hover{
+  /*background: salmon;*/
+  color: #ffe1cc;
+  font-size: 16px;
+  /*width: 33px;*/
+  /*height: 33px;*/
+  margin-left: 5px;
+  padding: 8px 8px;
+  border-bottom: 1px solid #ffe1cc;
 }
 
 @media screen and (max-width: 800px) {

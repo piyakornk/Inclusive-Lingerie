@@ -24,6 +24,7 @@ function ContactForm() {
           if (!errors.people[i]) {
             errors.people[i] = {};
           }
+
           errors.people[i].message =
             "Don't you want to send us a message?";
         
@@ -39,8 +40,7 @@ function ContactForm() {
   });
   return (
     <div className='TalkToUs'>
-
-    
+      
     <Form {...form}>
       {form.values.people.map((_, i) => (
         <React.Fragment key={i}>
