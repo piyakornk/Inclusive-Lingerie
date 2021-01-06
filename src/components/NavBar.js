@@ -24,7 +24,7 @@ function NavBar() {
 
                     <a aria-label="Menu" className="menu-icon"  onClick={handleClick}>
                         <i className={click ? "fas fa-times": "fas fa-bars" }  title="Menu"  > </i>
-                        <span class="sr-only">Menu</span>
+                        <span class="sr-only" className = {click ? "Menu" : "Close"}></span>
                     </a>
 
                     

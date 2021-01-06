@@ -1,14 +1,14 @@
 import React from "react";
 import "./ProductCardComponents.css";
-import { useMenuState, Menu, MenuItem, MenuButton } from "reakit/Menu";
+//import { useMenuState, Menu, MenuItem, MenuButton } from "reakit/Menu";
 import ColorsButtons from "./ColorsButtons";
 import ImageGalleryProduct from './ImageGalleryProduct'
-import { useDisclosureState, Disclosure, DisclosureContent, } from "reakit/Disclosure";
+//import { useDisclosureState, Disclosure, DisclosureContent, } from "reakit/Disclosure";
 import { Link } from "react-router-dom";
 
 function ProductCard({ product }) {
 
-    const menu = useMenuState({ loop: true });
+   /* const menu = useMenuState({ loop: true });
 
     const sizes = product.sizes.map(size => (<MenuItem
         {...menu}
@@ -16,12 +16,12 @@ function ProductCard({ product }) {
         onClick={() => {
             menu.hide();
             console.log("clicked on button");
-            {/* instead of {disclosure.visible && <DisclosureContent {...disclosure}>Content</DisclosureContent>} */ }
-        }}
+            {/* instead of {disclosure.visible && <DisclosureContent {...disclosure}>Content</DisclosureContent>} */ 
+     /*   }}
     >{size}
     </MenuItem>))
 
-    const disclosure = useDisclosureState();
+    const disclosure = useDisclosureState();*/
 
 
     return (
