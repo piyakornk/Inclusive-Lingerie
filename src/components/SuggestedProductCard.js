@@ -12,8 +12,8 @@ function SuggestedProductCard({id}) {
 
    return (
     <>
-        <li className="suggested__card__item">
-            <Link className="suggested__cards__item__link" to={'/Product/'+ id} >
+        <li className="suggested__card__item" key={id}>
+            <Link className="suggested__cards__item__link" to={'/Product/'+ id} key={id}>
                 <figure className="suggested__cards__item__pic-wrap">
                     <img src={process.env.PUBLIC_URL + suggestedProduct[0].coverImage.path} alt={process.env.PUBLIC_URL + suggestedProduct[0].coverImage.alternateText} className="suggested__cards__item__img"/>
                 </figure>
