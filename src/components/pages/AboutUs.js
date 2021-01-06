@@ -9,7 +9,7 @@ function AboutUs() {
     return (
         <main id="content" role="main" className='AboutUs'>
             <ul className="breadcrumb">
-                <li><Link to=""></Link></li>
+                <li><Link to="/">Home</Link></li>
                 <li>About Us</li>
             </ul>
             <div className="product__container" >

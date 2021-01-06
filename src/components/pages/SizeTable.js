@@ -9,7 +9,7 @@ function SizeTable() {
         <main id="content" role="main" className='SizeTable'>
             <div className='Content'>
             <ul className="breadcrumb">
-                <li><Link to=""></Link></li>
+                <li><Link to="/">Home</Link></li>
                 <li>Size Tables</li>
             </ul>
                 <h1>Guide to all sizes</h1>
