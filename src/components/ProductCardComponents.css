@@ -48,8 +48,16 @@
   flex-grow: 0;
 }
 
+.home__content{
+  
+  display: flex;
+  flex-grow: 1;
+  flex-flow: column;
+  width: 50%;
+}
+
 .collection__description{
-  background-color: burlywood;
+  /*background-color: burlywood;*/
     margin: auto 2.5% auto 2.5%;
 }
 
