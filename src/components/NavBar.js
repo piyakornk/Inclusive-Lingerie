@@ -7,19 +7,13 @@ import './NavBar.css';
  
 function NavBar() {
     const [click, setClick] = useState(false);
- 
-    
     const handleClick=()=> setClick(!click);
     const closeMobileMenu = () => setClick(false);
      
     
     return (
       <>
-<<<<<<< HEAD
         <header className="navbar" id="header" role="banner">
-=======
-        <nav className="navbar" role="navigation" aria-labelledby="Navigation Bar">
->>>>>>> ee74ffc90b0672d5c9aba05173444e4d316b5e82
             
             <div className="navbar-container">
             <Link to="/" className = "navbar-logo">
