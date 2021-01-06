@@ -38,7 +38,7 @@ function Catalogue(props) {
         <main id="content" role="main" className='Catalogue'>
             <div className='Content'>
                 <ul className="breadcrumb">
-                    <li><Link to=""></Link></li>
+                    <li><Link to="/">Home</Link></li>
                     <li>{category}</li>
                 </ul>
                 <h1>Catalogue</h1>
