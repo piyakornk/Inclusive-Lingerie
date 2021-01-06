@@ -13,65 +13,65 @@ import {
     <>
     <Grid {...grid} className='table' aria-label="Pants Size Table">
         <GridRow {...grid} className='size_row_first_row'>
-            <GridCell {...grid}>Sizes</GridCell>
-            <GridCell {...grid}>XXS</GridCell>
-            <GridCell {...grid}>XS</GridCell>
-            <GridCell {...grid}>S</GridCell>
-            <GridCell {...grid}>M</GridCell>
-            <GridCell {...grid}>L</GridCell>
-            <GridCell {...grid}>XL</GridCell>
-            <GridCell {...grid}>XXL</GridCell>
-            <GridCell {...grid}>3XL</GridCell>
-            <GridCell {...grid}>4XL</GridCell>
+            <GridCell {...grid} role="columnheader">Sizes</GridCell>
+            <GridCell {...grid} role="columnheader">XXS</GridCell>
+            <GridCell {...grid} role="columnheader">XS</GridCell>
+            <GridCell {...grid} role="columnheader">S</GridCell>
+            <GridCell {...grid} role="columnheader">M</GridCell>
+            <GridCell {...grid} role="columnheader">L</GridCell>
+            <GridCell {...grid} role="columnheader">XL</GridCell>
+            <GridCell {...grid} role="columnheader">XXL</GridCell>
+            <GridCell {...grid} role="columnheader">3XL</GridCell>
+            <GridCell {...grid} role="columnheader">4XL</GridCell>
         </GridRow>
         <GridRow {...grid}className='size_row'>
-            <GridCell {...grid}>US</GridCell>
-            <GridCell {...grid}>O</GridCell>
-            <GridCell {...grid}>2</GridCell>
-            <GridCell {...grid}>4</GridCell>
-            <GridCell {...grid}>6</GridCell>
-            <GridCell {...grid}>8</GridCell>
-            <GridCell {...grid}>10</GridCell>
-            <GridCell {...grid}>12</GridCell>
-            <GridCell {...grid}>14</GridCell>
-            <GridCell {...grid}>16</GridCell>
+            <GridCell {...grid} role="rowheader">US</GridCell>
+            <GridCell {...grid} role="gridcell">O</GridCell>
+            <GridCell {...grid} role="gridcell">2</GridCell>
+            <GridCell {...grid} role="gridcell">4</GridCell>
+            <GridCell {...grid} role="gridcell">6</GridCell>
+            <GridCell {...grid} role="gridcell">8</GridCell>
+            <GridCell {...grid} role="gridcell">10</GridCell>
+            <GridCell {...grid} role="gridcell">12</GridCell>
+            <GridCell {...grid} role="gridcell">14</GridCell>
+            <GridCell {...grid} role="gridcell">16</GridCell>
 
         </GridRow>
         <GridRow {...grid}className='size_row'>
-            <GridCell {...grid}>UK</GridCell>
-            <GridCell {...grid}>6</GridCell>
-            <GridCell {...grid}>8</GridCell>
-            <GridCell {...grid}>10</GridCell>
-            <GridCell {...grid}>12</GridCell>
-            <GridCell {...grid}>14</GridCell>
-            <GridCell {...grid}>16</GridCell>
-            <GridCell {...grid}>18</GridCell>
-            <GridCell {...grid}>20</GridCell>
-            <GridCell {...grid}>22</GridCell>
+            <GridCell {...grid} role="rowheader">UK</GridCell>
+            <GridCell {...grid} role="gridcell">6</GridCell>
+            <GridCell {...grid} role="gridcell">8</GridCell>
+            <GridCell {...grid} role="gridcell">10</GridCell>
+            <GridCell {...grid} role="gridcell">12</GridCell>
+            <GridCell {...grid} role="gridcell">14</GridCell>
+            <GridCell {...grid} role="gridcell">16</GridCell>
+            <GridCell {...grid} role="gridcell">18</GridCell>
+            <GridCell {...grid} role="gridcell">20</GridCell>
+            <GridCell {...grid} role="gridcell">22</GridCell>
         </GridRow>
         <GridRow {...grid}className='size_row'>
-            <GridCell {...grid}>Italy</GridCell>
-            <GridCell {...grid}>38</GridCell>
-            <GridCell {...grid}>40</GridCell>
-            <GridCell {...grid}>42</GridCell>
-            <GridCell {...grid}>44</GridCell>
-            <GridCell {...grid}>46</GridCell>
-            <GridCell {...grid}>48</GridCell>
-            <GridCell {...grid}>50</GridCell>
-            <GridCell {...grid}>52</GridCell>
-            <GridCell {...grid}>54</GridCell>
+            <GridCell {...grid} role="rowheader">Italy</GridCell>
+            <GridCell {...grid} role="gridcell">38</GridCell>
+            <GridCell {...grid} role="gridcell">40</GridCell>
+            <GridCell {...grid} role="gridcell">42</GridCell>
+            <GridCell {...grid} role="gridcell">44</GridCell>
+            <GridCell {...grid} role="gridcell">46</GridCell>
+            <GridCell {...grid} role="gridcell">48</GridCell>
+            <GridCell {...grid} role="gridcell">50</GridCell>
+            <GridCell {...grid} role="gridcell">52</GridCell>
+            <GridCell {...grid} role="gridcell">54</GridCell>
         </GridRow>
         <GridRow {...grid}className='size_row'>
-            <GridCell {...grid}>France</GridCell>
-            <GridCell {...grid}>34</GridCell>
-            <GridCell {...grid}>36</GridCell>
-            <GridCell {...grid}>38</GridCell>
-            <GridCell {...grid}>40</GridCell>
-            <GridCell {...grid}>42</GridCell>
-            <GridCell {...grid}>44</GridCell>
-            <GridCell {...grid}>46</GridCell>
-            <GridCell {...grid}>48</GridCell>
-            <GridCell {...grid}>50</GridCell>
+            <GridCell {...grid} role="rowheader">France</GridCell>
+            <GridCell {...grid} role="gridcell">34</GridCell>
+            <GridCell {...grid} role="gridcell">36</GridCell>
+            <GridCell {...grid} role="gridcell">38</GridCell>
+            <GridCell {...grid} role="gridcell">40</GridCell>
+            <GridCell {...grid} role="gridcell">42</GridCell>
+            <GridCell {...grid} role="gridcell">44</GridCell>
+            <GridCell {...grid} role="gridcell">46</GridCell>
+            <GridCell {...grid} role="gridcell">48</GridCell>
+            <GridCell {...grid} role="gridcell">50</GridCell>
         </GridRow>
     </Grid>
   </>
