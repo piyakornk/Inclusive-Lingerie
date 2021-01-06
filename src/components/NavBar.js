@@ -13,7 +13,7 @@ function NavBar() {
 
     return (
         <>
-            <header className="navbar" id="header" role="banner">
+            <header className="navbar" id="header" role="navigation">
 
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo">
