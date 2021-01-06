@@ -27,13 +27,13 @@ function ProductCard({ product }) {
     return (
         <>
             <div className="product__container">
-                <div className="product__section">
+                <div className="product__gallery">
                     <div className='bottom__margin'>
                         <ImageGalleryProduct product={product} />
                     </div>
 
                 </div>
-                <div className="product__section">
+                <div className="product__content">
                     <div className="product__information">
                         <h1 className="bottom__margin">{product.title}</h1>
                         <ColorsButtons product={product} />

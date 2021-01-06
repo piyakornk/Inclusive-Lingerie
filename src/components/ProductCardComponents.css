@@ -15,29 +15,46 @@
     /*background-color: blue;*/
     width: 90%;
     max-width: 1000px;
+    min-width: 340px;
     margin: auto;
 
     display: flex;
     flex-wrap: wrap;
     vertical-align: top;   
-    justify-content: left;
+    justify-content: space-between;
 
 }
 
-.product__section{
+.product__gallery{
     /*background-color: silver;*/
-    width: 50%;
-    min-width: 300px;
+    justify-content: center;
+
+    margin-left:5%;
+    width: 40%;
+    min-width: 340px;
     display: flex;
     flex-flow: column;
-    flex-grow: 1;
+    flex-grow: 0;
+}
+
+.product__content{
+  /*background-color: silver;*/
+  /*grid-column: 2/3;*/
+  margin-left:8%;
+  width: 40%;
+  min-width: 340px;
+  display: flex;
+  flex-flow: column;
+  flex-grow: 0;
 }
 
 .collection__description{
+  background-color: burlywood;
     margin: auto 2.5% auto 2.5%;
 }
 
 .product__section__content{
+    
     display: block;
     max-width: 100%;
     max-height: 100%;
