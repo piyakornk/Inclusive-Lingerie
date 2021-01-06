@@ -14,7 +14,7 @@ import './Table.css'
     <div>
     <Grid {...grid} className='table' aria-label="Bras Size Table">
         <GridRow {...grid} className='size_row_first_row'>
-            <GridCell {...grid} role="columnheader">Sizes</GridCell>
+            <GridCell {...grid} role="rowheader">Sizes</GridCell>
             <GridCell {...grid} role="columnheader">XXS</GridCell>
             <GridCell {...grid} role="columnheader">XS</GridCell>
             <GridCell {...grid} role="columnheader">S</GridCell>
