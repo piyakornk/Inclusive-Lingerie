@@ -24,10 +24,10 @@ function Footer() {
               className='social-icon-link facebook'
               to='/'
               target='_blank'
-              alt= 'Facebook'
+              alt='Facebook'
               aria-label='Facebook'
-            >
-              <i className='fab fa-facebook-f' />
+              >
+              <i className='fab fa-facebook-f' title= 'Facebook'/>
             </Link>
             <Link
               className='social-icon-link instagram'
@@ -35,8 +35,8 @@ function Footer() {
               target='_blank'
               alt='Instagram'
               aria-label='Instagram'
-            >
-              <i className='fab fa-instagram' />
+              >
+              <i className='fab fa-instagram' title='Instagram' />
             </Link>
             <Link
               className='social-icon-link youtube'
@@ -45,7 +45,7 @@ function Footer() {
               alt='Youtube'
               aria-label='Youtube'
             >
-              <i className='fab fa-youtube' />
+              <i className='fab fa-youtube' title='Youtube' />
             </Link>
             <Link
               className='social-icon-link twitter'
@@ -54,7 +54,7 @@ function Footer() {
               alt='Twitter'
               aria-label='Twitter'
             >
-              <i className='fab fa-twitter' />
+              <i className='fab fa-twitter' title='Twitter'/>
             </Link>
             <Link
               className='social-icon-link twitter'
@@ -63,7 +63,7 @@ function Footer() {
               alt='LinkedIn'
               aria-label='LinkedIn'
             >
-              <i className='fab fa-linkedin' />
+              <i className='fab fa-linkedin' title='LinkedIn'/>
             </Link>
           </div>
         </div>
