@@ -9,6 +9,9 @@ import ContactForm from "../Form"
 function AboutUs() {
     return (
         <main id="content" role="main" className='AboutUs'>
+            <script>
+                {document.title="About Us"}
+            </script>
             <div className='Content'>
                 <ul className="breadcrumb">
                     <li><Link to="/">Home</Link></li>

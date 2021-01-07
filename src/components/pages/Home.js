@@ -4,6 +4,9 @@ import "../ProductCardComponents.css"
 function Home() {
     return (
         <main id="content" role="main" className='Home'>
+            <script>
+                {document.title="Home page"}
+            </script>
             <div className="product__container">
                 <div className="bottom__margin">
                     <img className="product__section__content" src={process.env.PUBLIC_URL + "/Images/coverHomeAllWomen.png"} alt="28 women in all shapes, races, and personalities staying together in one group" />

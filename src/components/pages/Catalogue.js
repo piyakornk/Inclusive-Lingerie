@@ -36,6 +36,9 @@ function Catalogue(props) {
 
     return (
         <main id="content" role="main" className='Catalogue'>
+            <script>
+                {document.title="All "+category}
+            </script>
             <div className='Content'>
                 <ul className="breadcrumb">
                     <li><Link to="/">Home</Link></li>

@@ -7,6 +7,9 @@ import {Link} from 'react-router-dom'
 function SizeTable() {
     return (
         <main id="content" role="main" className='SizeTable'>
+            <script>
+                {document.title="Size Tables"}
+            </script>
             <div className='Content'>
             <ul className="breadcrumb">
                 <li><Link to="/">Home</Link></li>

@@ -31,6 +31,9 @@ function Product(props) {
 
     return (
         <main id="content" role="main" className='Product'>
+            <script>
+                {document.title="Details of "+title}
+            </script>
             <div className='Content'>
             <ul className="breadcrumb">
                 <li><Link to="/">Home</Link></li>
