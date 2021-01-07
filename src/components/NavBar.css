@@ -117,6 +117,11 @@
     color: #ffede1;
     border-radius: 0;
   }
+  .nav-links:focus {
+    background-color: #290025;
+    color: #ffede1;
+    border-radius: 0;
+  }
 
   .menu-icon {
     display: block;
@@ -151,6 +156,11 @@
   }
 
   .nav-links-mobile:hover {
+    background-color: #290025;
+    color: #ffede1;
+    transition: 250ms;
+  }
+  .nav-links-mobile:focus {
     background-color: #290025;
     color: #ffede1;
     transition: 250ms;
