@@ -1,9 +1,10 @@
 import React from 'react'
 import '../../App.css'
 import '../Breadcrumbs.css'
-import ContactForm from '../ContactForm';
+//import ContactForm from '../ContactForm'
 import "../ProductCardComponents.css"
 import {Link} from 'react-router-dom'
+import ContactForm from "../Form"
 
 function AboutUs() {
     return (
@@ -37,8 +38,9 @@ function AboutUs() {
                 <h3 className="bottom__margin">Talk to us</h3>
             </div>
             <div className="product__container" >
-                <ContactForm />
+                <ContactForm/>
             </div>
+            
 
         </main>
     )
