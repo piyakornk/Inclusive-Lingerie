@@ -18,9 +18,9 @@ function SuggestedProductCard({id}) {
                     <img src={process.env.PUBLIC_URL + suggestedProduct[0].coverImage.path} alt={process.env.PUBLIC_URL + suggestedProduct[0].coverImage.alternateText} className="suggested__cards__item__img"/>
                 </figure>
                 <div className="suggested__cards__item__info">
-                    <h5 className="suggested__cards__item__text">
+                    <h3 className="suggested__cards__item__text">
                         {suggestedProduct[0].title}
-                    </h5>
+                    </h3>
                 </div>
             </Link>
         </li> 

@@ -8,20 +8,20 @@ import { Link } from "react-router-dom";
 
 function ProductCard({ product }) {
 
-   /* const menu = useMenuState({ loop: true });
+    /* const menu = useMenuState({ loop: true });
+ 
+     const sizes = product.sizes.map(size => (<MenuItem
+         {...menu}
+         className="dropdown"
+         onClick={() => {
+             menu.hide();
+             console.log("clicked on button");
+             {/* instead of {disclosure.visible && <DisclosureContent {...disclosure}>Content</DisclosureContent>} */
+    /*   }}
+   >{size}
+   </MenuItem>))
 
-    const sizes = product.sizes.map(size => (<MenuItem
-        {...menu}
-        className="dropdown"
-        onClick={() => {
-            menu.hide();
-            console.log("clicked on button");
-            {/* instead of {disclosure.visible && <DisclosureContent {...disclosure}>Content</DisclosureContent>} */ 
-     /*   }}
-    >{size}
-    </MenuItem>))
-
-    const disclosure = useDisclosureState();*/
+   const disclosure = useDisclosureState();*/
 
 
     return (
@@ -59,15 +59,16 @@ function ProductCard({ product }) {
                                 {(props) => disclosure.visible && <div {...props}>Available in shops</div>}
                             </DisclosureContent>
                         </div>*/}
-                        <br />
-                        <Link to={"/SizeTable"} className='link'>
-                            Guide to size
+                        
+                        <div className='bottom__margin'>
+                            <Link to={"/SizeTable"} className='link'>
+                                Guide to size
                         </Link>
-
-                        <br />
-                        <br />
-                        <h3>Description</h3>
-                        <p>{product.description}</p>
+                        </div>
+                        <div className='bottom__margin'>
+                            <h3>Description</h3>
+                            <p>{product.description}</p>
+                        </div>
                     </div>
                 </div>
             </div>

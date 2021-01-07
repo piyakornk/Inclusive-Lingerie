@@ -66,7 +66,7 @@ function ContactForm() {
           
         </React.Fragment>
       ))}
-      <br />
+      
       <FormSubmitButton {...form} className = 'btn'>Send</FormSubmitButton>
     </Form>
     </div>
