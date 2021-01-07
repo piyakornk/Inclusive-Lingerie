@@ -44,23 +44,23 @@ function ContactForm() {
     <Form {...form}>
       {form.values.people.map((_, i) => (
         <React.Fragment key={i}>
-          <FormLabel {...form} className = 'FormLabel' name={["people", i, "name"]}>
+          <FormLabel {...form} className = 'FormLabel' name={["people", i, "name"]} for="name_field">
             Name
           </FormLabel>
-          <FormInput {...form} className ='form' name={["people", i, "name"]} />
+          <FormInput {...form} className ='form' name={["people", i, "name"]} id="name_field"/>
           <FormMessage {...form} name={["people", i, "name"]} />
 
-          <FormLabel {...form} className = 'FormLabel' name={["people", i, "email"]}>
+          <FormLabel {...form} className = 'FormLabel' name={["people", i, "email"]} for="email_field">
             Email
           </FormLabel>
-          <FormInput {...form} className ='form' type="email" name={["people", i, "email"]} />
+          <FormInput {...form} className ='form' type="email" name={["people", i, "email"]} id="email_field"/>
           <FormMessage {...form} name={["people", i, "email"]} />
           
-          <FormLabel {...form}  className = 'FormLabel' name={["people", i, "message"]}>
+          <FormLabel {...form}  className = 'FormLabel' name={["people", i, "message"]} for="message_field">
             Message
           </FormLabel>
           
-          <FormInput {...form} className ='form'  type="email" name={["people", i, "message"]} />
+          <FormInput {...form} className ='form'  type="email" name={["people", i, "message"]} id="message_field"/>
           
           <FormMessage {...form} className= 'promptmessage' name={["people", i, "message"]} />
           
