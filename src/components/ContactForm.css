@@ -3,7 +3,6 @@
     width: 100%;
     /*background-color: red;*/
 }
-    
 
 .FormLabel{
     /*background-color: turquoise;*/
@@ -11,18 +10,20 @@
     width: 40%;
 }
 .form{
-    /*background-color: whitesmoke;*/
+    background-color: whitesmoke;
     font-size: 16px;
     color:#550000;
-    border-radius: 15px;
+    border-radius: 10px;
     width: auto;
     margin: 5px 30px;
-    padding: 5px;
+    padding: 5px 10px;
     border-color: #fff;
-    
+    vertical-align:middle;
+    border: 2px solid #ccc;
 }
+
 .promptmessage{
     padding-left: 30px;
-    padding-top: 10px;
+    padding-bottom: 10px;
     color:#a31313 ;
 }

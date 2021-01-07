@@ -40,17 +40,17 @@ function ContactForm() {
         <Form {...form}>
             <FormLabel {...form} name="name" className = 'FormLabel'>Name</FormLabel>
             <FormInput {...form} name="name" placeholder="Love Me" autocomplete="name" className ='form'/>
-            <FormMessage {...form} name="name" />
+            <FormMessage {...form} name="name" className='promptmessage'/>
 
             <FormLabel {...form} name="email" className = 'FormLabel'>Email</FormLabel>
             <FormInput {...form} name="email" placeholder="LoveMe@gmail.com" autocomplete="email" className ='form'/>
-            <FormMessage {...form} name="email" />
+            <FormMessage {...form} name="email" className='promptmessage'/>
 
             <FormLabel {...form} name="message" className = 'FormLabel'>Message</FormLabel>
             <FormInput {...form} name="message" placeholder="What's on your mind?" as="textarea" className ='form'/>
-            <FormMessage {...form} name="message" className ='alert'/>
+            <FormMessage {...form} name="message" className='promptmessage'/>
 
-            <FormSubmitButton {...form} className = 'btn' >Send</FormSubmitButton>
+            <FormSubmitButton {...form} className = 'btn'>Send</FormSubmitButton>
         </Form>
         </div>
     );
