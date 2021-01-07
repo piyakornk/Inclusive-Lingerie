@@ -39,9 +39,7 @@ function Product(props) {
             </ul>
 
                 {products}
-                <br/>
-                <br/>
-                <br/>
+                
                 <h2>Suggested items:</h2>
                 <div className='suggested__cards__container'>
                     <ul className='suggested__cards__items'>
