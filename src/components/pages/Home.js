@@ -8,8 +8,8 @@ function Home() {
                 <div className="bottom__margin">
                     <img className="product__section__content" src={process.env.PUBLIC_URL + "/Images/coverHomeAllWomen.png"} alt="28 women in all shapes, races, and personalities staying together in one group" />
                 </div>
-                <h1 className="bottom__margin">Feel at your best with the 2021 Collections</h1>
             </div>
+            <h1 className="bottom__margin">Feel at your best with the 2021 Collections</h1>
             <div className="bottom__margin">
                 <ButtonMaster />
             </div>
