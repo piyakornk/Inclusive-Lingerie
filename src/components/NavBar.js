@@ -18,7 +18,7 @@ function NavBar() {
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo">
 
-                        <img src={LoveMeLogo} alt="The logo of Love Me" />
+                        <img src={LoveMeLogo} alt="The logo of Love Me" name="LoveMe" />
 
                     </Link>
 
