@@ -1,15 +1,31 @@
+.all__colors{
+  list-style: none;
+}
+
+.color_container{
+    /*display: inline-block;*/
+    text-align: left;
+    margin-right: 3%;
+    position: relative;
+    align-items: center;
+}
+
 .color{
+    display: inline-block;
     width: 30px;
     height: 30px;
     border-radius: 50%;
     border: 1.5px solid #41003a;
 }
 
-.color_container{
-    display: inline-block;
-    text-align: center;
-    margin-right: 3%;
+.color__name{
+    position: absolute;
+    padding-top: 5px;
+    margin-left: 10px;
+    color: #550000;
 }
+
+
 
 .product__container{
     /*background-color: blue;*/
