@@ -9,10 +9,9 @@ function ColorsButtons({ product }) {
         var partsOfStr = color.split('-')
         /*console.log(partsOfStr[0])*/
         return (<li className="color_container" key={partsOfStr[0]} >
-            <div style={{ background: "#" + partsOfStr[0] }} className="color" alt={partsOfStr[1]} title={partsOfStr[1]}>
+            <div style={{ background: "#" + partsOfStr[0] }} className="color" alt={partsOfStr[1]}>
             </div>
             <text className="color__name">{partsOfStr[1]}</text>
-            <span class="sr-only">{partsOfStr[1]}</span>
         </li>)
 
     })
