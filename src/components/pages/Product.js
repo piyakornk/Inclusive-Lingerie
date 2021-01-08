@@ -47,11 +47,7 @@ function Product(props) {
                 {products}
 
                 <h2>Suggested items:</h2>
-                <div className='suggested__cards__container'
-                    //acccessibility (customized ARIA)
-                    role="region"
-                    aria-labelledby="region2">
-
+                <div className='suggested__cards__container'>
                     <ul className='suggested__cards__items'>
                         {
                             suggestedIdCards
