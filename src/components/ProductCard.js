@@ -36,7 +36,8 @@ function ProductCard({ product }) {
                     <div className="product__information">
                         <h1 className="bottom__margin">{product.title}</h1>
                         <ColorsButtons product={product} />
-                        <h2 className="bottom__margin">€ {product.price}.00</h2>
+                        <h2>Price</h2>
+                        <p className="bottom__margin big__text">€ {product.price}.00</p>
                         <h3>Avaliable sizes in shops</h3>
                         <p>XXS / XS / S / M / L / XL / XXL / 3XL / 4XL</p>
 
