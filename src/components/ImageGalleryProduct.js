@@ -7,9 +7,27 @@ function ImageGalleryProduct({ product }) {
 
     return (
         <>
-            <div className="gallery__container">
-                <img className="gallery__selected__image" src={process.env.PUBLIC_URL + selectedImg} alt={process.env.PUBLIC_URL + product.otherImages[0].alternateText} />
-                <div className="gallery__imgContainer">
+            <section 
+                className="gallery__container" 
+                //accessibility (carousel)
+                role="region" //Role region is implied for any section element that has an accessible name.
+                id="productCarousel"
+                aria-roledescription="carousel"
+                aria-label="Product's gallery" 
+                >
+                <img 
+                    className="gallery__selected__image" 
+                    src={process.env.PUBLIC_URL + selectedImg} 
+                    //accessibility (customized)
+                    alt={process.env.PUBLIC_URL + product.otherImages[0].alternateText}
+                    id= "productCarousel-selected-item" //marking for aria-labelledby
+                     />
+
+                <div className="gallery__imgContainer" 
+                    //accessbility (carousel)
+                    id="productCarousel-items" 
+                    aria-live="polite" //informing users when the image is changed
+                    >
                     {product.otherImages.map((element, index) =>
                     (<img
                         style={{ border: selectedImg === element.path ? "1.8px solid #550000" : "" }}
@@ -18,10 +36,20 @@ function ImageGalleryProduct({ product }) {
                         src={process.env.PUBLIC_URL + element.path} 
                         alt={process.env.PUBLIC_URL + element.alternateText}
                         onClick={() => setSelectedImg(element.path)}
+
+                        //accessibility (carousel)
+                        aria-roledescription="slide"
+
+                        //accessilbity (customized)
+                        type="button" //acting like a checkbox
+                        role="switch" 
+                        tabindex="0"
+                        id= "productCarousel-item" //marking for aria-labelledby
+                        aria-labelledby="productCarousel-selected-item productCarousel-item" //showing aria-labelledby in interactive elements
                     />
                     ))}
                 </div>
-            </div>
+            </section>
         </>
     );
 }
