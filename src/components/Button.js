@@ -5,11 +5,11 @@ import './Button.css'
 
 function ButtonMaster() {
     return (
-        <>
-            <Link to={"/SizeTable"} className='btn' >
+       
+            <Link to={"/SizeTable"} className='btn' role="link" tabindex="0" aria-label="Size Tables">
                 See all sizes
             </Link>
-        </>
+        
     )
 }
 
