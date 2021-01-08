@@ -16,7 +16,7 @@ import Product from "./components/pages/Product";
 function App() {
   return (
     <>
-      <a href="#content" id="skip-link">Skip to main content</a>
+      <a href="#content" id="skip-link" alt="skip to main content">Skip to main content</a>
       <Router>
       <NavBar />
         <Switch>
