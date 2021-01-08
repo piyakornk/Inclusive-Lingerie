@@ -5,7 +5,12 @@ import ColorsButtons from './ColorsButtons'
 function CatalogueCard({product}) {
    return (
     <>
-        <li className="card__item" key={product.id}>
+        <li className="card__item" key={product.id}
+            //accessibility
+            role="link"
+            tabindex="0"
+            
+        >
             <Link className="cards__item__link" to={'/Product/'+ product.id} >
                 <figure className="cards__item__pic-wrap">
                     <img src={process.env.PUBLIC_URL + product.coverImage.path} alt={process.env.PUBLIC_URL + product.coverImage.alternateText} className="cards__item__img"/>
