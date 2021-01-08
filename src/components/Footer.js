@@ -8,13 +8,11 @@ function Footer() {
 
         <div className='social-media-wrap'>
           
-          <div>
-            <Link to='/' className='ReturnPolicy'>
+            <Link to='/' className='ReturnPolicy' role="link" tabindex="0" aria-label="Return Policy">
               Return Policy
             </Link>
-          </div>
 
-          <small className='CustomerService'>
+          <small className='CustomerService' >
             <h3>Customer Service</h3>
             <p>contactus@loveme.com</p>
           </small>
@@ -27,6 +25,7 @@ function Footer() {
               alt='Facebook'
               aria-label='Facebook'
               title= 'Facebook'
+              role="link"
               >
               <i className='fab fa-facebook-f' />
             </Link>
@@ -36,7 +35,8 @@ function Footer() {
               target='_blank'
               alt='Instagram'
               aria-label='Instagram'
-              title='Instagram' 
+              title='Instagram'
+              role="link" 
               >
               <i className='fab fa-instagram' />
             </Link>
@@ -47,6 +47,7 @@ function Footer() {
               alt='Youtube'
               aria-label='Youtube'
               title='Youtube' 
+              role="link"
             >
               <i className='fab fa-youtube' />
             </Link>
@@ -57,6 +58,7 @@ function Footer() {
               alt='Twitter'
               aria-label='Twitter'
               title='Twitter'
+              role="link"
             >
               <i className='fab fa-twitter' />
             </Link>
@@ -67,6 +69,7 @@ function Footer() {
               alt='LinkedIn'
               aria-label='LinkedIn'
               title='LinkedIn'
+              role="link"
             >
               <i className='fab fa-linkedin' />
             </Link>
