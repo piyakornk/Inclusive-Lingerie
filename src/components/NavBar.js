@@ -13,61 +13,45 @@ function NavBar() {
 
     return (
         <>
-            <header className="navbar" id="header" role="navigation">
-
+            <header className="navbar" id="header" role="menubar">
                 <div className="navbar-container">
-                    <Link to="/" className="navbar-logo">
-
+                    <Link to="/" className="navbar-logo" role = "menuitem" tabindex="0">
                         <img src={LoveMeLogo} alt="The logo of Love Me" name="LoveMe" />
-
                     </Link>
 
-                    <a aria-label="Menu" className="menu-icon"  onClick={handleClick} title="Menu">
+                    <a className="menu-icon"  onClick={handleClick} title="Menu/Close" aria-label="Menu-Close" role="menu" aria-haspopup="true" tabindex="0" >
                         <i className={click ? "fas fa-times": "fas fa-bars"} > </i>
                     </a>
 
-                    
-
-
-                    <ul aria-label="Bras, Panties, Sets, About us and Size Table" className={click ? 'nav-menu active' : 'nav-menu'} >
+                    <ul className={click ? 'nav-menu active' : 'nav-menu'} role="menu" aria-label="Bras, Panties, Sets, About us and Size Table">
                         <li className='nav-item'>
-                            <Link to={"/Catalogue/100"} className='nav-links' onClick={closeMobileMenu}>
+                            <Link to={"/Catalogue/100"} className='nav-links' onClick={closeMobileMenu} role="menuitem" tabindex="0">
                                 Bras
                                 </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to={"/Catalogue/200"} className='nav-links' onClick={closeMobileMenu}>
+                            <Link to={"/Catalogue/200"} className='nav-links' onClick={closeMobileMenu}role="menuitem" tabindex="0">
                                 Panties
                                  </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to={"/Catalogue/300"} className='nav-links' onClick={closeMobileMenu}>
+                            <Link to={"/Catalogue/300"} className='nav-links' onClick={closeMobileMenu}role="menuitem" tabindex="0">
                                 Sets
                                  </Link>
                         </li>
 
 
                         <li className='nav-item'>
-                            <Link
-                                to='/AboutUs'
-                                className='nav-links'
-                                onClick={closeMobileMenu}
-                            >
+                            <Link to='/AboutUs' className='nav-links' onClick={closeMobileMenu} role="menuitem" tabindex="0">
                                 About Us
                                 </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link
-                                to='/SizeTable'
-                                className='nav-links'
-                                onClick={closeMobileMenu}
-                            >
+                            <Link to='/SizeTable' className='nav-links' onClick={closeMobileMenu} role="menuitem" tabindex="0">
                                 Size Table
                                 </Link>
                         </li>
-
                     </ul>
-
                 </div>
             </header>
         </>
