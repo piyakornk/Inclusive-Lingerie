@@ -13,7 +13,7 @@ function ImageGalleryProduct({ product }) {
                 role="region" //Role region is implied for any section element that has an accessible name.
                 id="productCarousel"
                 aria-roledescription="carousel"
-                aria-label="Product's gallery" 
+                aria-label="Product's gallery" //For components that don't have h1-h6
                 >
                 <img 
                     className="gallery__selected__image" 
