@@ -15,9 +15,16 @@ ul.breadcrumb li {
 
 /* Add a slash symbol (/) before/behind each list item */
 ul.breadcrumb li+li:before {
-    padding: 8px;
+    /*padding: 8px;*/
     color: #7d1f94;
-    content: "/\00a0";
+    /*content: "/\00a0";*/
+
+    display: inline-block;
+    margin: 0 0.25em;
+    transform: rotate(15deg);
+    border-right: 0.1em solid currentColor;
+    height: 0.8em;
+    content: '';
 }
 
 /* Add a color to all links inside the list */
@@ -31,4 +38,12 @@ ul.breadcrumb li a {
 ul.breadcrumb li a:hover {
     color: #550000;
     text-decoration: underline;
+}
+
+/* Add a color on the current page */
+ul.breadcrumb li [aria-current="page"]{
+    color: #7d1f94;
+    text-decoration: underline;
+    padding: 2px;
+    font-weight: 800;
 }
