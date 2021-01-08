@@ -23,7 +23,6 @@ function ProductCard({ product }) {
 
    const disclosure = useDisclosureState();*/
 
-
     return (
         <>
             <div className="product__container">
@@ -61,7 +60,7 @@ function ProductCard({ product }) {
                         </div>*/}
                         
                         <div className='bottom__margin'>
-                            <Link to={"/SizeTable"} className='link'>
+                            <Link to={"/SizeTable"} className='link' role="link" tabindex="0" aria-label="Size Tables">
                                 Guide to size
                         </Link>
                         </div>
