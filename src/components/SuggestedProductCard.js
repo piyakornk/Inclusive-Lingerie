@@ -12,8 +12,8 @@ function SuggestedProductCard({id}) {
 
    return (
     <>
-        <li className="suggested__card__item" key={id}>
-            <Link className="suggested__cards__item__link" to={'/Product/'+ id} key={id}
+        <li className="suggested__card__item" key={"li"+id}>
+            <Link className="suggested__cards__item__link" to={'/Product/'+ id} key={"link"+id}
                 //accessibility (link)
                 role="link"
                 tabindex="0"

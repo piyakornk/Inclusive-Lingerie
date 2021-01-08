@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <footer role="contentinfo" aria-labelledby="footer" className='footer-container'>
+    <footer id="footer" role="contentinfo" aria-labelledby="footer" className='footer-container'>
 
         <div className='social-media-wrap'>
           

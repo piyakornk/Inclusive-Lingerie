@@ -36,7 +36,7 @@ function NavBar() {
                         <i className={click ? "fas fa-times" : "fas fa-bars"} > </i>
                     </a>
 
-                    <ul className={click ? 'nav-menu active' : 'nav-menu hidden'} role="menu" aria-label="Bras, Panties, Sets, About us and Size Table" aria-expanded={click ? 'true' : 'false'}>
+                    <ul className={click ? 'nav-menu active' : 'nav-menu hidden'} role="menu" aria-label="Bras, Panties, Sets, About us and Size Table" >
                         <li className='nav-item'>
                             <Link to={"/Catalogue/100"} className='nav-links' onClick={closeMobileMenu} role="menuitem" tabindex="0">
                                 Bras
