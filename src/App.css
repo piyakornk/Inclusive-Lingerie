@@ -53,13 +53,14 @@
 
 
 #skip-link {
-  background: #319795;
-  color: #fff;
+  background: #fcf3f5;
+  color: #550000;
   font-weight: 700;
   left: 50%;
   padding: 4px;
   position: absolute;
   transform: translateY(-100%);
+  z-index: 1000;
 }
 
 #skip-link:focus {
