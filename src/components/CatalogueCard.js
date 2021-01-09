@@ -8,7 +8,7 @@ function CatalogueCard({product}) {
         <li className="card__item" key={product.id}
             //accessibility
             role="link"
-            tabindex="0"
+            tabIndex="0"
             
         >
             <Link className="cards__item__link" to={'/Product/'+ product.id} >

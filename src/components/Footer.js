@@ -8,7 +8,7 @@ function Footer() {
 
         <div className='social-media-wrap'>
           
-            <Link to='/' className='ReturnPolicy' role="link" tabindex="0" aria-label="Return Policy">
+            <Link to='/' className='ReturnPolicy' role="link" tabIndex="0" aria-label="Return Policy">
               Return Policy
             </Link>
 

@@ -6,7 +6,7 @@ import './Button.css'
 function ButtonMaster() {
     return (
        
-            <Link to={"/SizeTable"} className='btn' role="link" tabindex="0" aria-label="Size Tables">
+            <Link to={"/SizeTable"} className='btn' role="link" tabIndex="0" aria-label="Size Tables">
                 See all sizes
             </Link>
         
