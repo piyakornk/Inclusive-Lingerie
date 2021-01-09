@@ -134,6 +134,7 @@
     transform: translate(-100%, 60%);
     font-size: 1.5rem;
     cursor: pointer;
+    border: none;
   }
 
   .fa-times {
