@@ -27,28 +27,28 @@ function BraSize() {
             <div role="rowgroup" >
                 <div role="row" className='size_row'>
                     <span role="rowheader">US</span>
-                    <span role="cell">0</span>
-                    <span role="cell">2</span>
-                    <span role="cell">4</span>
-                    <span role="cell">6</span>
-                    <span role="cell">8</span>
-                    <span role="cell">10</span>
-                    <span role="cell">12</span>
-                    <span role="cell">14</span>
-                    <span role="cell">16</span>
+                    <span role="cell">30</span>
+                    <span role="cell">32</span>
+                    <span role="cell">34</span>
+                    <span role="cell">36</span>
+                    <span role="cell">38</span>
+                    <span role="cell">40</span>
+                    <span role="cell">42</span>
+                    <span role="cell">44</span>
+                    <span role="cell">46</span>
                 </div>
 
                 <div role="row" className='size_row'>
                     <span role="rowheader">UK</span>
-                    <span role="cell">6</span>
-                    <span role="cell">8</span>
-                    <span role="cell">10</span>
-                    <span role="cell">12</span>
-                    <span role="cell">14</span>
-                    <span role="cell">16</span>
-                    <span role="cell">18</span>
-                    <span role="cell">20</span>
-                    <span role="cell">22</span>
+                    <span role="cell">30</span>
+                    <span role="cell">32</span>
+                    <span role="cell">34</span>
+                    <span role="cell">36</span>
+                    <span role="cell">38</span>
+                    <span role="cell">40</span>
+                    <span role="cell">42</span>
+                    <span role="cell">44</span>
+                    <span role="cell">46</span>
                 </div>
 
                 <div role="row" className='size_row'>
