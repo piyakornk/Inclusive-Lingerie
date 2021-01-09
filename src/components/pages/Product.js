@@ -9,9 +9,9 @@ import DataJson from "../../products-data.json"
 function Product(props) {
 
     const selectedId = parseInt(props.match.params.id, 10)
-    const products = DataJson.map(product => { if (product.id === selectedId) { return (<ProductCard product={product} />) } })
+    const products = DataJson.map(product => { if (product.id === selectedId) { return (<ProductCard product={product} key={product.id}/>) } })
     var suggestedIds = DataJson.map(product => { if (product.id === selectedId) { return (product.similarProducts) } }).filter(function (el) { return el != null; })
-    var suggestedIdCards = suggestedIds[0].map(element => <SuggestedProductCard id={element} />)
+    var suggestedIdCards = suggestedIds[0].map(element => <SuggestedProductCard id={element} key={element} />)
     var titleTemp = DataJson.map(product => { if (product.id === selectedId) { return (product.title) } }).filter(function (el) { return el != null; });
     var title = titleTemp[0]
     var idCategory = 0

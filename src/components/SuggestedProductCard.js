@@ -16,7 +16,7 @@ function SuggestedProductCard({id}) {
             <Link className="suggested__cards__item__link" to={'/Product/'+ id} key={"link"+id}
                 //accessibility (link)
                 role="link"
-                tabindex="0"
+                tabIndex="0"
                 >
                 <figure className="suggested__cards__item__pic-wrap">
                     <img src={process.env.PUBLIC_URL + suggestedProduct[0].coverImage.path} alt={process.env.PUBLIC_URL + suggestedProduct[0].coverImage.alternateText} className="suggested__cards__item__img"/>
