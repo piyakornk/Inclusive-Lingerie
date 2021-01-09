@@ -35,28 +35,32 @@ function Catalogue(props) {
     }
 
     return (
-        <main id="content" role="main" className='Catalogue'>
+        <>
             <script>
                 {document.title = "All " + category}
             </script>
-            <div className='Content'>
-                <nav aria-label="Breadcrumb">
-                    <ul className="breadcrumb">
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to={'/Catalogue/' + category} aria-current="page">{category}</Link></li>
-                    </ul>
-                </nav>
-                <h1>{category}</h1>
-            </div>
-
-            <div className='cards__container'>
-                <ul className='cards__items'>
-                    {
-                        products
-                    }
+            <nav aria-label="Breadcrumb">
+                <ul className="breadcrumb">
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to={'/Catalogue/' + category} aria-current="page">{category}</Link></li>
                 </ul>
-            </div>
-        </main>
+            </nav>
+            <main id="content" role="main" className='Catalogue'>
+
+                <div className='Content'>
+
+                    <h1>{category}</h1>
+                </div>
+
+                <div className='cards__container'>
+                    <ul className='cards__items'>
+                        {
+                            products
+                        }
+                    </ul>
+                </div>
+            </main>
+        </>
     )
 }
 

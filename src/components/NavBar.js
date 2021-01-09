@@ -30,9 +30,10 @@ function NavBar() {
                         onKeyPress={_handleKeyDown}
                         title="Menu/Close"
                         aria-label="Menu-Close"
-                        role="menu"
+                        role="menuitem"
                         aria-haspopup="true"
-                        tabindex="0" >
+                        tabindex="0" 
+                        >
                         <i className={click ? "fas fa-times" : "fas fa-bars"} > </i>
                     </a>
 
