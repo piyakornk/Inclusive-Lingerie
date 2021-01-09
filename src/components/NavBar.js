@@ -19,7 +19,7 @@ function NavBar() {
     */
 
     return (
-        <>
+        <nav>
             <header className="navbar" id="header" role="menubar">
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo" role="menuitem" tabIndex="0">
@@ -69,7 +69,7 @@ function NavBar() {
                     </ul>
                 </div>
             </header>
-        </>
+        </nav>
     );
 }
 
