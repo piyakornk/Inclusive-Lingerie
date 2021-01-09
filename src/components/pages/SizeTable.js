@@ -22,7 +22,7 @@ function SizeTable() {
 
 
 
-                    <h1>Guide to all sizes</h1>
+                    <h1>Size Tables</h1>
                     <h2>Bras Size</h2>
                     <BraSize role="grid" />
                     <h2>Pants Size</h2>
