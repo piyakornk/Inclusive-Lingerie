@@ -24,7 +24,6 @@ function Footer() {
               target='_blank'
               alt='Facebook'
               aria-label='Facebook'
-              title= 'Facebook'
               role="link"
               >
               <i className='fab fa-facebook-f' />
@@ -35,7 +34,6 @@ function Footer() {
               target='_blank'
               alt='Instagram'
               aria-label='Instagram'
-              title='Instagram'
               role="link" 
               >
               <i className='fab fa-instagram' />
@@ -46,7 +44,6 @@ function Footer() {
               target='_blank'
               alt='Youtube'
               aria-label='Youtube'
-              title='Youtube' 
               role="link"
             >
               <i className='fab fa-youtube' />
@@ -57,7 +54,6 @@ function Footer() {
               target='_blank'
               alt='Twitter'
               aria-label='Twitter'
-              title='Twitter'
               role="link"
             >
               <i className='fab fa-twitter' />
@@ -68,7 +64,6 @@ function Footer() {
               target='_blank'
               alt='LinkedIn'
               aria-label='LinkedIn'
-              title='LinkedIn'
               role="link"
             >
               <i className='fab fa-linkedin' />
