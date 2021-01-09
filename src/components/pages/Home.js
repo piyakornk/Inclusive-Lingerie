@@ -37,7 +37,7 @@ function Home() {
                 <div className="home__content">
                     <div className="collection__description">
                         <h2>Flowers</h2>
-                        <p>Hever done it? Change this cycle. Start your journey to self love now and get a little boost of self esteem by wearing some pieces of the collection “New Year New Me”. It is a journey, and not an easy one, but you will eventually look at yourself and appreciate all the little things that you are now insecure about.</p>
+                        <p>From forget-me-not to tulips, from orchids to roses, flowers come in such a variety that it is almost impossible to keep track of the colors and shapes they come in, but yet, we find them all beautiful and fascinating. The same is for women. We come in all different colors, shapes and varieties, but we all are undeniably unique and beautiful in our own way. The “Flowers” collection, inspired by the natural diversity, is meant to fit all women and emphasize their natural beauty.</p>
 
                     </div>
                 </div>
