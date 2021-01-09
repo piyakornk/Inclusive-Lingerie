@@ -43,15 +43,15 @@ function ContactForm() {
           aria-labelledby="message">
           <Form {...form}
               id="message">
-              <FormLabel {...form} name="name" className='FormLabel' for="    " >Name</FormLabel>
+              <FormLabel {...form} name="name" className='FormLabel' htmlFor="name_field" >Name</FormLabel>
               <FormInput {...form} name="name" className='form' id="name_field" placeholder="Love Me" autoComplete="name" />
               <FormMessage {...form} name="name" role="alert" className='promptmessage' />
 
-              <FormLabel {...form} name="email" className='FormLabel' for="email_field">Email</FormLabel>
+              <FormLabel {...form} name="email" className='FormLabel' htmlFor="email_field">Email</FormLabel>
               <FormInput {...form} name="email" className='form' id="email_field" placeholder="LoveMe@gmail.com" autoComplete="email" />
               <FormMessage {...form} name="email" role="alert" className='promptmessage' />
 
-              <FormLabel {...form} name="message" className='FormLabel' for="message_field">Message</FormLabel>
+              <FormLabel {...form} name="message" className='FormLabel' htmlFor="message_field">Message</FormLabel>
               <FormInput {...form} name="message" className='form' id="message_field" placeholder="What's on your mind?" as="textarea" />
               <FormMessage {...form} name="message" role="alert" className='promptmessage' />
 
