@@ -35,7 +35,7 @@ function NavBar() {
                         aria-haspopup="true"
                         tabIndex="0" 
                         >
-                        <i className={click ? "fas fa-times" : "fas fa-bars"} > </i>
+                        <p className={click ? "fas fa-times" : "fas fa-bars"} > </p>
                     </button>
 
                     <ul className={click ? 'nav-menu active' : 'nav-menu hidden'} role="menu" aria-label="Bras, Panties, Sets, About us and Size Table" >

@@ -44,11 +44,11 @@ function ContactForm() {
           <Form {...form}
               id="message">
               <FormLabel {...form} name="name" className='FormLabel' htmlFor="name_field" >Name</FormLabel>
-              <FormInput {...form} name="name" className='form' id="name_field" placeholder="Love Me" autoComplete="name" />
+              <FormInput {...form} name="name" className='form' id="name_field" placeholder="Love Me" type="text" autoComplete="name" />
               <FormMessage {...form} name="name" role="alert" className='promptmessage' />
 
               <FormLabel {...form} name="email" className='FormLabel' htmlFor="email_field">Email</FormLabel>
-              <FormInput {...form} name="email" className='form' id="email_field" placeholder="LoveMe@gmail.com" autoComplete="email" />
+              <FormInput {...form} name="email" className='form' id="email_field" placeholder="LoveMe@gmail.com" type="email" autoComplete="email" />
               <FormMessage {...form} name="email" role="alert" className='promptmessage' />
 
               <FormLabel {...form} name="message" className='FormLabel' htmlFor="message_field">Message</FormLabel>
