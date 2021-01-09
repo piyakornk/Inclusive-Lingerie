@@ -1,82 +1,84 @@
-import React from "react"; 
-import {
-    unstable_useGridState as useGridState,
-    unstable_Grid as Grid,
-    unstable_GridRow as GridRow,
-    unstable_GridCell as GridCell,
-  } from "reakit/Grid";
+import React from "react";
 import './Table.css'
 
 
-  function BraSize(){
-    const grid = useGridState();
-    return(
-    <div>
-    <Grid {...grid} className='table' aria-label="Bras Size Table">
-        <GridRow {...grid} className='size_row_first_row'>
-            <GridCell {...grid} role="rowheader">Sizes</GridCell>
-            <GridCell {...grid} role="columnheader">XXS</GridCell>
-            <GridCell {...grid} role="columnheader">XS</GridCell>
-            <GridCell {...grid} role="columnheader">S</GridCell>
-            <GridCell {...grid} role="columnheader">M</GridCell>
-            <GridCell {...grid} role="columnheader">L</GridCell>
-            <GridCell {...grid} role="columnheader">XL</GridCell>
-            <GridCell {...grid} role="columnheader">XXL</GridCell>
-            <GridCell {...grid} role="columnheader">3XL</GridCell>
-            <GridCell {...grid} role="columnheader">4XL</GridCell>
-        </GridRow>
-        <GridRow {...grid} className='size_row'>
-            <GridCell {...grid} role="rowheader">US</GridCell>
-            <GridCell {...grid}>O</GridCell>
-            <GridCell {...grid}>2</GridCell>
-            <GridCell {...grid}>4</GridCell>
-            <GridCell {...grid}>6</GridCell>
-            <GridCell {...grid}>8</GridCell>
-            <GridCell {...grid}>10</GridCell>
-            <GridCell {...grid}>12</GridCell>
-            <GridCell {...grid}>14</GridCell>
-            <GridCell {...grid}>16</GridCell>
+function BraSize() {
+    return (
+        <div role="table"
+            aria-label="Bra Size Table"
+            aria-describedby="bra_size_table"
+            className="bottom__margin">
+            <div id="bra_size_table">
+            </div>
+            <div role="rowgroup" >
+                <div role="row" className='size_row_first_row'>
+                    <span role="columnheader">Sizes</span>
+                    <span role="columnheader">XXS</span>
+                    <span role="columnheader">XS</span>
+                    <span role="columnheader">S</span>
+                    <span role="columnheader">M</span>
+                    <span role="columnheader">L</span>
+                    <span role="columnheader">XL</span>
+                    <span role="columnheader">XXL</span>
+                    <span role="columnheader">3XL</span>
+                    <span role="columnheader">4XL</span>
+                </div>
+            </div>
+            <div role="rowgroup" >
+                <div role="row" className='size_row'>
+                    <span role="rowheader">US</span>
+                    <span role="cell">0</span>
+                    <span role="cell">2</span>
+                    <span role="cell">4</span>
+                    <span role="cell">6</span>
+                    <span role="cell">8</span>
+                    <span role="cell">10</span>
+                    <span role="cell">12</span>
+                    <span role="cell">14</span>
+                    <span role="cell">16</span>
+                </div>
 
-        </GridRow>
-        <GridRow {...grid} className='size_row'>
-            <GridCell {...grid} role="rowheader">UK</GridCell>
-            <GridCell {...grid} role="gridcell">6</GridCell>
-            <GridCell {...grid} role="gridcell">8</GridCell>
-            <GridCell {...grid} role="gridcell">10</GridCell>
-            <GridCell {...grid} role="gridcell">12</GridCell>
-            <GridCell {...grid} role="gridcell">14</GridCell>
-            <GridCell {...grid} role="gridcell">16</GridCell>
-            <GridCell {...grid} role="gridcell">18</GridCell>
-            <GridCell {...grid} role="gridcell">20</GridCell>
-            <GridCell {...grid} role="gridcell">22</GridCell>
-        </GridRow>
-        <GridRow {...grid} className='size_row'>
-            <GridCell {...grid} role="rowheader">Italy</GridCell>
-            <GridCell {...grid} role="gridcell">0</GridCell>
-            <GridCell {...grid} role="gridcell">1</GridCell>
-            <GridCell {...grid} role="gridcell">2</GridCell>
-            <GridCell {...grid} role="gridcell">3</GridCell>
-            <GridCell {...grid} role="gridcell">4</GridCell>
-            <GridCell {...grid} role="gridcell">5</GridCell>
-            <GridCell {...grid} role="gridcell">6</GridCell>
-            <GridCell {...grid} role="gridcell">7</GridCell>
-            <GridCell {...grid} role="gridcell">8</GridCell>
-        </GridRow>
-        <GridRow {...grid}className='size_row'>
-            <GridCell {...grid} role="rowheader">France</GridCell>
-            <GridCell {...grid} role="gridcell">80</GridCell>
-            <GridCell {...grid} role="gridcell">85</GridCell>
-            <GridCell {...grid} role="gridcell">90</GridCell>
-            <GridCell {...grid} role="gridcell">95</GridCell>
-            <GridCell {...grid} role="gridcell">100</GridCell>
-            <GridCell {...grid} role="gridcell">105</GridCell>
-            <GridCell {...grid} role="gridcell">110</GridCell>
-            <GridCell {...grid} role="gridcell">115</GridCell>
-            <GridCell {...grid} role="gridcell">120</GridCell>
-        </GridRow>
-    </Grid>
-  </div>
-);
+                <div role="row" className='size_row'>
+                    <span role="rowheader">UK</span>
+                    <span role="cell">6</span>
+                    <span role="cell">8</span>
+                    <span role="cell">10</span>
+                    <span role="cell">12</span>
+                    <span role="cell">14</span>
+                    <span role="cell">16</span>
+                    <span role="cell">18</span>
+                    <span role="cell">20</span>
+                    <span role="cell">22</span>
+                </div>
+
+                <div role="row" className='size_row'>
+                    <span role="rowheader">Italy</span>
+                    <span role="cell">0</span>
+                    <span role="cell">1</span>
+                    <span role="cell">2</span>
+                    <span role="cell">3</span>
+                    <span role="cell">4</span>
+                    <span role="cell">5</span>
+                    <span role="cell">6</span>
+                    <span role="cell">7</span>
+                    <span role="cell">8</span>
+                </div>
+
+                <div role="row" className='size_row'>
+                    <span role="rowheader">France</span>
+                    <span role="cell">80</span>
+                    <span role="cell">85</span>
+                    <span role="cell">90</span>
+                    <span role="cell">95</span>
+                    <span role="cell">100</span>
+                    <span role="cell">105</span>
+                    <span role="cell">110</span>
+                    <span role="cell">115</span>
+                    <span role="cell">120</span>
+                </div>
+            </div>
+        </div>
+    );
 
 }
 
