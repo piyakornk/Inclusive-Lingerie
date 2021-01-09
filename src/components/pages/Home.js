@@ -3,7 +3,7 @@ import ButtonMaster from "../Button"
 import "../ProductCardComponents.css"
 function Home() {
     return (
-        <main id="content" role="main" className='Home'>
+        <main id="content" role="main" className='Home' tabIndex="-1">
             <script>
                 {document.title="Home page"}
             </script>

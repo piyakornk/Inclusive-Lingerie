@@ -18,7 +18,7 @@ function AboutUs() {
                     <li><Link to="/AboutUs" aria-current="page">About Us</Link></li>
                 </ul>
             </nav>
-            <main id="content" role="main" className='AboutUs'>
+            <main id="content" role="main" className='AboutUs' tabIndex="-1">
 
                 <div className='Content'>
                     <h1 className="bottom__margin">About Us</h1>

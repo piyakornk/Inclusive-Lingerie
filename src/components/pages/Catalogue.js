@@ -45,7 +45,7 @@ function Catalogue(props) {
                     <li><Link to={'/Catalogue/' + category} aria-current="page">{category}</Link></li>
                 </ul>
             </nav>
-            <main id="content" role="main" className='Catalogue'>
+            <main id="content" role="main" className='Catalogue' tabIndex="-1">
 
                 <div className='Content'>
 

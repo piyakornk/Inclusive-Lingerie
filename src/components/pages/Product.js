@@ -43,7 +43,7 @@ function Product(props) {
                 </ul>
             </nav>
 
-            <main id="content" role="main" className='Product'>
+            <main id="content" role="main" className='Product' tabIndex="-1">
 
                 <div className='Content'>
 

@@ -16,7 +16,7 @@ function SizeTable() {
                     <li><Link to="/SizeTable" aria-current="page">Size Tables</Link></li>
                 </ul>
             </nav>
-            <main id="content" role="main" className='SizeTable'>
+            <main id="content" role="main" className='SizeTable' tabIndex="-1">
 
                 <div className='Content'>
 
