@@ -11,7 +11,7 @@ function ColorsButtons({ product }) {
         return (<li className="color_container" key={partsOfStr[0]} >
             <div style={{ background: "#" + partsOfStr[0] }} className="color" alt={partsOfStr[1]}>
             </div>
-            <text className="color__name">{partsOfStr[1]}</text>
+            <p className="color__name">{partsOfStr[1]}</p>
         </li>)
 
     })

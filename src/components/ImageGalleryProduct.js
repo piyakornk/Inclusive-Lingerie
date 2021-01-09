@@ -51,6 +51,7 @@ function ImageGalleryProduct({ product }) {
                             //accessilbity (customized)
                             type="button" //acting like a checkbox
                             role="switch"
+                            aria-checked={(selectedImg===element.path)?'true':'false'}
                             tabindex="0"
                             id={"productCarousel-item"+index} //marking for aria-labelledby
                             aria-labelledby={"productCarousel-selected-item productCarousel-item"+index} //showing aria-labelledby in interactive elements
