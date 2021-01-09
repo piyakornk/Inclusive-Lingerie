@@ -10,12 +10,13 @@ function NavBar() {
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
 
-
+    /*
     const _handleKeyDown = (e) => {
         if (e.key === 'Enter') {
             setClick(!click);
         }
     }
+    */
 
     return (
         <>
@@ -25,9 +26,9 @@ function NavBar() {
                         <img src={LoveMeLogo} alt="The logo of Love Me" name="LoveMe" />
                     </Link>
 
-                    <a className="menu-icon"
+                    <button className="menu-icon"
                         onClick={handleClick}
-                        onKeyPress={_handleKeyDown}
+                        //onKeyPress={_handleKeyDown}
                         title="Menu/Close"
                         aria-label="Menu-Close"
                         role="menuitem"
@@ -35,7 +36,7 @@ function NavBar() {
                         tabIndex="0" 
                         >
                         <i className={click ? "fas fa-times" : "fas fa-bars"} > </i>
-                    </a>
+                    </button>
 
                     <ul className={click ? 'nav-menu active' : 'nav-menu hidden'} role="menu" aria-label="Bras, Panties, Sets, About us and Size Table" >
                         <li className='nav-item'>
