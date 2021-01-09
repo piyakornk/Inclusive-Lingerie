@@ -2,8 +2,9 @@
 /* Style the list */
 ul.breadcrumb {
     padding: 10px 16px;
+    padding-left: 10%;
     list-style: none;
-    background-color: transparent;
+    background: #fcf3f5;
 }
 
 /* Display list items side by side */

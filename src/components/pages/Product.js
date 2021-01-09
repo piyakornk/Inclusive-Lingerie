@@ -30,32 +30,36 @@ function Product(props) {
     }
 
     return (
-        <main id="content" role="main" className='Product'>
+        <>
             <script>
                 {document.title = "Details of " + title}
             </script>
-            <div className='Content'>
 
-                <nav aria-label="Breadcrumb">
-                    <ul className="breadcrumb">
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to={'/Catalogue/' + idCategory}>{category}</Link></li>
-                        <li><Link to={'/Product/' + selectedId} aria-current="page">{title}</Link></li>
-                    </ul>
-                </nav>
+            <nav aria-label="Breadcrumb">
+                <ul className="breadcrumb">
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to={'/Catalogue/' + idCategory}>{category}</Link></li>
+                    <li><Link to={'/Product/' + selectedId} aria-current="page">{title}</Link></li>
+                </ul>
+            </nav>
 
-                {products}
+            <main id="content" role="main" className='Product'>
 
-                <h2>Suggested items:</h2>
-                <div className='suggested__cards__container'>
-                    <ul className='suggested__cards__items'>
-                        {
-                            suggestedIdCards
-                        }
-                    </ul>
+                <div className='Content'>
+
+                    {products}
+
+                    <h2>Suggested items:</h2>
+                    <div className='suggested__cards__container'>
+                        <ul className='suggested__cards__items'>
+                            {
+                                suggestedIdCards
+                            }
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </main>
+            </main>
+        </>
     )
 }
 
