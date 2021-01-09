@@ -4,7 +4,7 @@ import '../Breadcrumbs.css'
 //import ContactForm from '../ContactForm'
 import "../ProductCardComponents.css"
 import { Link } from 'react-router-dom'
-import ContactForm from "../Form"
+import ContactForm from "../ContactForm"
 
 function AboutUs() {
     return (
