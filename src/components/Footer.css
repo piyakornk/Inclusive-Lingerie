@@ -1,5 +1,6 @@
 .footer-container {
   background-color: #41003a;
+  min-height: 100px;
   margin: 0 0;
   padding: 0 0 0 0;
     /* this is for the top-left-buttom-right padding for the footer */

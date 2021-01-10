@@ -236,3 +236,11 @@
     }
   }
   
+  .display__inline-block{
+    display: inline-block;
+  }
+
+  .img__center{
+    /**/
+    text-align: center;
+  }

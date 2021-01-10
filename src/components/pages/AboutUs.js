@@ -23,8 +23,8 @@ function AboutUs() {
                 <div className='Content'>
                     <h1 className="bottom__margin">About Us</h1>
 
-                    <div className="bottom__margin">
-                        <img className="product__section__content" src={process.env.PUBLIC_URL + "/Images/aboutUsLaughingWomen.png"} alt="Laughing women cherishing their diversity in shape" />
+                    <div className="bottom__margin img__center">
+                        <img className="product__section__content display__inline-block" src={process.env.PUBLIC_URL + "/Images/aboutUsLaughingWomen.png"} alt="Laughing women cherishing their diversity in shape" />
                     </div>
 
                     <h2 className="bottom__margin">Our Belief</h2>
