@@ -63,7 +63,7 @@ function NavBar() {
                         </li>
                         <li className='nav-item'>
                             <Link to='/SizeTable' className='nav-links' onClick={closeMobileMenu} role="menuitem" tabIndex="0">
-                                Size Table
+                                Size Tables
                                 </Link>
                         </li>
                     </ul>
