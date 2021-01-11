@@ -5,7 +5,7 @@ import './ProductCardComponents.css'
 
 function SuggestedProductCard({id}) {
 
-    var elements = DataJson.map(product =>{ if(product.id===id){ return(product);}return null})
+    var elements = DataJson.map(product =>{ if(product.id===id){ return(product);} return null;})
     var suggestedProduct = elements.filter(function (el) {return el != null;});
     //console.log(elements)
     //console.log(suggestedProduct)
