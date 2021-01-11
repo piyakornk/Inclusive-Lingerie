@@ -39,8 +39,8 @@ function AboutUs() {
 
                     <p className="bottom__margin">Born in 2018, LoveMe is a lingerie line that makes all women feel welcome and seen. The founders, Marta and Piyakorn, are two young ladies very passionate about inclusivity and self love. They met in 2015 in Paris where they were attending some courses about Humans and Social Interactions. From talking about their perception of the world we live in today, they started then digging deeper in how society defines women and categorises them. The underlying idea that a woman is beautiful when she loves herself was agreed on immediately. From there in an avalanche of interconnecting ideas, in a few weeks time the project of LoveMe was born. It took a while to define and build the chain of collaborators, but after a few years of hard work, LoveMe was finally reality. The safe place where all women can shop to feel beautiful and empowered.</p>
 
-                    <h3 className="bottom__margin">Talk to us</h3>
-
+                    <h3>Talk to us</h3>
+                    <p className="bottom__margin">If you want to contact us, fill the following form with your credentials and press "Send".</p>
                     <div className="product__container" >
                         <ContactForm />
                     </div>
