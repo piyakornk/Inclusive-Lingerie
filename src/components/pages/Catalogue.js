@@ -42,7 +42,7 @@ function Catalogue(props) {
             <nav aria-label="Breadcrumb">
                 <ul className="breadcrumb">
                     <li><Link to="/">Home</Link></li>
-                    <li><Link to={'/Catalogue/' + category} aria-current="page">{category}</Link></li>
+                    <li><Link to={'/Catalogue/' + limit} aria-current="page">{category}</Link></li>
                 </ul>
             </nav>
             <main id="content" role="main" className='Catalogue' tabIndex="-1">
